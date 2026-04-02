@@ -1,0 +1,143 @@
+    .info-box {
+        border: 1px solid rgba(0, 195, 255, 0.2);
+    }
+    
+    .table th {
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #6c757d;
+    }
+
+    .table td {
+        font-size: 0.875rem;
+        vertical-align: middle;
+    }
+
+    .search-section .input-group {
+        max-width: 300px;
+    }
+
+    .search-section .form-control:focus {
+        box-shadow: none;
+    }
+
+    .search-section .input-group-text {
+        border-right: none;
+    }
+
+    /* Section Styles */
+    .section-container {
+        background: #fff;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid #e9ecef;
+    }
+
+    .form-label {
+        font-weight: 500;
+        color: #495057;
+    }
+
+    .form-control::placeholder,
+    .form-select::placeholder {
+        color: #adb5bd;
+        font-size: 0.875rem;
+    }
+
+    .form-select[multiple] {
+        height: auto;
+        min-height: 100px;
+    }
+
+    .text-muted.small {
+        font-size: 0.75rem;
+    }
+
+    /* Sliding Panel Styles */
+    .sliding-panel {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 600px;
+        height: 100vh;
+        background: #fff;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        z-index: 1050;
+        overflow-y: auto;
+    }
+
+    .sliding-panel.active {
+        right: 0;
+    }
+
+    .panel-header {
+        padding: 1.5rem;
+        border-bottom: 1px solid #e9ecef;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 1;
+    }
+
+    .panel-header h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .close-panel {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0;
+        color: #6c757d;
+    }
+
+    .panel-content {
+        padding: 1.5rem;
+    }
+
+    .panels-content {
+        padding: 1.5rem;
+    }
+
+    .panel-footer {
+        padding: 1rem 1.5rem;
+        border-top: 1px solid #e9ecef;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        position: sticky;
+        bottom: 0;
+        background: #fff;
+        z-index: 1;
+    }
+
+    /* Form Field Spacing */
+    .mb-3:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .sliding-panel {
+            width: 100%;
+        }
+    }

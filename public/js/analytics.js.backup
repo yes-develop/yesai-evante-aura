@@ -1,0 +1,806 @@
+// Donut Chart Functions
+function createDonutChart(canvasId, percentage, color) {
+    const ctx = document.getElementById(canvasId);
+    if (!ctx) return;
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [percentage, 100 - percentage],
+                backgroundColor: [color, '#f3f4f6'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '70%',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    enabled: false
+                }
+            },
+            animation: {
+                animateRotate: true,
+                animateScale: false
+            }
+        }
+    });
+}
+
+function initializeDonutCharts() {
+    // 10m Response Rate Donut Chart
+    createDonutChart('donutChart10m', 50, '#ECF300');
+    
+    // 12h Response Rate Donut Chart
+    createDonutChart('donutChart12h', 50, '#ECF300');
+}
+
+// Chart.js configuration
+Chart.defaults.font.family = "'Nunito', 'Segoe UI', arial";
+Chart.defaults.font.size = 12;
+Chart.defaults.plugins.legend.display = false;
+Chart.defaults.elements.line.borderWidth = 2;
+Chart.defaults.elements.point.radius = 0;
+Chart.defaults.elements.point.hoverRadius = 4;
+Chart.defaults.plugins.tooltip.enabled = true;
+Chart.defaults.plugins.tooltip.mode = 'index';
+Chart.defaults.plugins.tooltip.intersect = false;
+
+// Colors
+const colors = {
+    primary: '#4e73df',
+    success: '#1cc88a',
+    info: '#36b9cc',
+    warning: '#f6c23e',
+    danger: '#e74a3b',
+    secondary: '#858796',
+    light: '#f8f9fc',
+    dark: '#5a5c69'
+};
+
+// Common chart options
+const commonOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+        tooltip: {
+            backgroundColor: 'rgb(255, 255, 255)',
+            titleColor: colors.dark,
+            bodyColor: colors.dark,
+            borderColor: colors.secondary,
+            borderWidth: 1,
+            padding: 12,
+            boxPadding: 6,
+            usePointStyle: true,
+            callbacks: {
+                label: function(context) {
+                    let label = context.dataset.label || '';
+                    if (label) {
+                        label += ': ';
+                    }
+                    label += context.parsed.y;
+                    return label;
+                }
+            }
+        }
+    },
+    scales: {
+        x: {
+            grid: {
+                display: false
+            },
+            ticks: {
+                color: colors.secondary
+            }
+        },
+        y: {
+            beginAtZero: true,
+            grid: {
+                color: colors.light,
+                drawBorder: false
+            },
+            ticks: {
+                color: colors.secondary,
+                padding: 10
+            }
+        }
+    }
+};
+
+// Global data storage
+let analyticsData = {
+    chat: null,
+    agent: null,
+    sales: null,
+    label: null
+};
+
+// Fetch analytics data from backend
+async function fetchAnalyticsData(tab = 'chat', dateRange = 'last_7_days') {
+    try {
+        const response = await fetch(`/api/analytics?tab=${tab}&date_range=${dateRange}`);
+        const result = await response.json();
+        
+        if (result.success) {
+            analyticsData[tab] = result;
+            return result;
+        } else {
+            console.error('Failed to fetch analytics data:', result.message);
+            return null;
+        }
+    } catch (error) {
+        console.error('Error fetching analytics data:', error);
+        return null;
+    }
+}
+
+// Initialize charts when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Fetch data and create charts
+    initializeAnalyticsCharts();
+    
+    // Initialize donut charts
+    initializeDonutCharts();
+});
+
+async function initializeAnalyticsCharts() {
+    // Fetch chat performance data
+    const chatData = await fetchAnalyticsData('chat');
+    if (chatData) {
+        createChatCharts(chatData);
+    }
+    
+    // Fetch agent performance data
+    const agentData = await fetchAnalyticsData('agent');
+    if (agentData) {
+        createAgentCharts(agentData);
+    }
+    
+    // Fetch sales performance data
+    const salesData = await fetchAnalyticsData('sales');
+    if (salesData) {
+        createSalesCharts(salesData);
+    }
+    
+    // Fetch label usage data
+    const labelData = await fetchAnalyticsData('label');
+    createLabelCharts(labelData || { chartData: {} });
+}
+
+function createChatCharts(data) {
+    createNewVsReturningChart(data.chatSummary);
+    createCustomerChatsChart(data.chartData);
+    createMissedChatsChart(data.chartData);
+    createResponseRateChart(data.chartData);
+    createTenMinResponseChart(data.chartData);
+    createResponseTimeChart(data.chartData);
+    createMessageReceivedChart(data.chartData);
+    createMessageSentChart(data.chartData);
+    createCustomerChatsByChannelChart(data.chartData);
+    createMissedChatsByChannelChart(data.chartData);
+    createAvgResponseRateChart(data.chartData);
+    createAvgTenMinResponseRateChart(data.chartData);
+}
+
+function createAgentCharts(data) {
+    createAgentCustomerChatsChart(data.chartData);
+    createAgentMissedChatsChart(data.chartData);
+}
+
+function createSalesCharts(data) {
+    // Sales charts will use the existing sales data structure
+    createSalesRevenueChart(data.chartData);
+    createSalesOrdersChart(data.chartData);
+}
+
+function createLabelCharts(data) {
+    createLabelDistributionChart(data.chartData);
+}
+
+function createNewVsReturningChart(chatSummary) {
+    const ctx = document.getElementById('newVsReturningChart');
+    if (!ctx) return;
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['New Chats', 'Returning Chats'],
+            datasets: [{
+                data: [chatSummary?.new_chats || 0, chatSummary?.returning_chats || 0],
+                backgroundColor: [colors.info, colors.primary],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            cutout: '70%',
+            plugins: {
+                tooltip: {
+                    enabled: true
+                }
+            }
+        }
+    });
+}
+
+function createLineChart(chartId, label, data, color, dates = null) {
+    const ctx = document.getElementById(chartId);
+    if (!ctx) return;
+
+    const chartDates = dates || ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: chartDates,
+            datasets: [{
+                label: label,
+                data: data,
+                borderColor: color,
+                backgroundColor: color,
+                tension: 0.4,
+                fill: false
+            }]
+        },
+        options: commonOptions
+    });
+}
+
+function createCustomerChatsChart(chartData) {
+    createLineChart('customerChatsChart', 'Customer Chats', chartData?.total_chats || [0, 0, 0, 0, 0, 0, 0], colors.primary, chartData?.dates);
+}
+
+function createMissedChatsChart(chartData) {
+    const missedChats = (chartData?.total_chats || []).map((total, index) => {
+        const sent = chartData?.messages_sent?.[index] || 0;
+        return Math.max(0, total - sent);
+    });
+    createLineChart('missedChatsChart', 'Missed Chats', missedChats, colors.danger, chartData?.dates);
+}
+
+function createResponseRateChart(chartData) {
+    createLineChart('responseRateChart', 'Response Rate', chartData?.response_rates || [0, 0, 0, 0, 0, 0, 0], colors.success, chartData?.dates);
+}
+
+function createTenMinResponseChart(chartData) {
+    const tenMinRates = (chartData?.response_rates || []).map(rate => Math.round(rate * 0.8));
+    createLineChart('tenMinResponseChart', '10-Min Response', tenMinRates, colors.warning, chartData?.dates);
+}
+
+function createResponseTimeChart(chartData) {
+    // Calculate average response time based on response rate (mock calculation for now)
+    const responseTimes = (chartData?.response_rates || []).map(rate => {
+        if (rate === 0) return 0;
+        // Mock: lower response rate = longer response time
+        return Math.round(100 - rate + Math.random() * 30);
+    });
+    createLineChart('responseTimeChart', 'Response Time', responseTimes, colors.info, chartData?.dates);
+}
+
+function createMessageReceivedChart(chartData) {
+    createLineChart('messageReceivedChart', 'Messages Received', chartData?.messages_received || [0, 0, 0, 0, 0, 0, 0], colors.primary, chartData?.dates);
+}
+
+function createMessageSentChart(chartData) {
+    createLineChart('messageSentChart', 'Messages Sent', chartData?.messages_sent || [0, 0, 0, 0, 0, 0, 0], colors.success, chartData?.dates);
+}
+
+function createCustomerChatsByChannelChart(chartData) {
+    const ctx = document.getElementById('customerChatsByChannelChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Facebook',
+                    data: chartData?.facebook_chats || Array(dates.length).fill(0),
+                    backgroundColor: colors.primary
+                },
+                {
+                    label: 'Line',
+                    data: chartData?.line_chats || chartData?.total_chats || Array(dates.length).fill(0),
+                    backgroundColor: colors.success
+                }
+            ]
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                x: {
+                    stacked: true,
+                    grid: {
+                        display: false
+                    }
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+}
+
+function createMissedChatsByChannelChart(chartData) {
+    const ctx = document.getElementById('missedChatsByChannelChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Facebook',
+                    data: chartData?.facebook_missed || Array(dates.length).fill(0),
+                    backgroundColor: colors.primary
+                },
+                {
+                    label: 'Line',
+                    data: chartData?.line_missed || Array(dates.length).fill(0),
+                    backgroundColor: colors.success
+                }
+            ]
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                x: {
+                    stacked: true,
+                    grid: {
+                        display: false
+                    }
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+}
+
+function createAvgResponseRateChart(chartData) {
+    const ctx = document.getElementById('avgResponseRateChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Facebook',
+                    data: chartData?.facebook_response_rates || Array(dates.length).fill(0),
+                    borderColor: colors.primary,
+                    tension: 0.4
+                },
+                {
+                    label: 'Line',
+                    data: chartData?.response_rates || Array(dates.length).fill(0),
+                    borderColor: colors.success,
+                    tension: 0.4
+                }
+            ]
+        },
+        options: commonOptions
+    });
+}
+
+function createAvgTenMinResponseRateChart(chartData) {
+    const ctx = document.getElementById('avgTenMinResponseRateChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Facebook',
+                    data: chartData?.facebook_tenmin_rates || Array(dates.length).fill(0),
+                    borderColor: colors.primary,
+                    tension: 0.4
+                },
+                {
+                    label: 'Line',
+                    data: (chartData?.response_rates || []).map(rate => Math.round(rate * 0.8)),
+                    borderColor: colors.success,
+                    tension: 0.4
+                }
+            ]
+        },
+        options: commonOptions
+    });
+}
+
+function createAgentCustomerChatsChart(chartData) {
+    const ctx = document.getElementById('agentCustomerChatsChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    // Create datasets for each agent
+    const datasets = (chartData?.agents || []).map(agent => ({
+        label: agent.name,
+        data: agent.daily_chats || Array(dates.length).fill(0),
+        backgroundColor: agent.color || colors.info
+    }));
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: datasets
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+}
+
+function createAgentMissedChatsChart(chartData) {
+    const ctx = document.getElementById('agentMissedChatsChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar', '14 Mar'];
+    
+    // Create datasets for each agent (missed chats)
+    const datasets = (chartData?.agents || []).map(agent => {
+        const missedChats = (agent.daily_chats || []).map(chats => Math.round(chats * 0.2)); // Mock: 20% missed
+        return {
+            label: agent.name,
+            data: missedChats,
+            backgroundColor: agent.color || colors.info
+        };
+    });
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: datasets
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+}
+
+function createLabelDistributionChart(chartData) {
+    const ctx = document.getElementById('labelDistributionChart');
+    if (!ctx) return;
+
+    if (window.ChartDataLabels && Chart.register) {
+        Chart.register(ChartDataLabels);
+    }
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: chartData?.labels || ['Label 1', 'Label 2', 'Label 3'],
+            datasets: [{
+                data: chartData?.counts || [30, 40, 30],
+                backgroundColor: chartData?.colors || [colors.primary, colors.success, colors.info],
+                borderWidth: 0,
+                borderRadius: 4
+            }]
+        },
+        options: {
+            cutout: '70%',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                datalabels: {
+                    color: '#ffffff',
+                    font: { weight: '600', size: 14 },
+                    formatter: (value, context) => {
+                        const data = context.chart.data.datasets[0].data || [];
+                        const total = data.reduce((sum, v) => sum + v, 0);
+                        if (!total) return '';
+                        const pct = Math.round((value / total) * 100);
+                        return `${pct}%`;
+                    }
+                }
+            },
+            layout: {
+                padding: 20
+            },
+            maintainAspectRatio: false
+        }
+    });
+}
+
+function createSalesRevenueChart(chartData) {
+    const ctx = document.getElementById('salesRevenueChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar'];
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Revenue',
+                    data: chartData?.daily_revenue || [0, 0, 0, 0, 0, 0, 0],
+                    borderColor: colors.primary,
+                    backgroundColor: colors.primary,
+                    tension: 0.4
+                }
+            ]
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value) {
+                            return '฿' + value.toLocaleString();
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+function createSalesOrdersChart(chartData) {
+    const ctx = document.getElementById('salesOrdersChart');
+    if (!ctx) return;
+
+    const dates = chartData?.dates || ['07 Mar', '08 Mar', '09 Mar', '10 Mar', '11 Mar', '12 Mar', '13 Mar'];
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: [
+                {
+                    label: 'Orders',
+                    data: chartData?.daily_orders || [0, 0, 0, 0, 0, 0, 0],
+                    backgroundColor: colors.success
+                }
+            ]
+        },
+        options: {
+            ...commonOptions,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Initialize label distribution chart
+function initializeLabelDistributionChart() {
+    const canvas = document.getElementById('labelDistributionChart');
+    if (!canvas || typeof Chart === 'undefined') return;
+    if (Chart.getChart && Chart.getChart(canvas)) return;
+    if (window.ChartDataLabels && Chart.register) {
+        Chart.register(ChartDataLabels);
+    }
+
+    new Chart(canvas, {
+        type: 'doughnut',
+        data: {
+            labels: ['Label 1', 'Label 2', 'Label 3'],
+            datasets: [{
+                data: [30, 40, 30],
+                backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
+                borderWidth: 0,
+                borderRadius: 4
+            }]
+        },
+        options: {
+            cutout: '70%',
+            plugins: {
+                legend: { display: false },
+                datalabels: {
+                    color: '#ffffff',
+                    font: { weight: '600', size: 14 },
+                    formatter: (value, context) => {
+                        const data = context.chart.data.datasets[0].data || [];
+                        const total = data.reduce((sum, v) => sum + v, 0);
+                        if (!total) return '';
+                        const pct = Math.round((value / total) * 100);
+                        return `${pct}%`;
+                    }
+                }
+            },
+            maintainAspectRatio: false
+        }
+    });
+}
+
+// Event Listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Lucide icons
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+    
+    // Set analyticsData for label page if not already set
+    if (!window.analyticsData && document.getElementById('labelDistributionChart')) {
+        window.analyticsData = {
+            activeTab: 'label',
+            dateRange: 'last7days'
+        };
+    }
+    
+    // Initialize label distribution chart if on label page
+    if (document.getElementById('labelDistributionChart')) {
+        initializeLabelDistributionChart();
+    }
+    
+    // Date filter click handler
+    const dateFilter = document.querySelector('.date-filter-section');
+    if (dateFilter) {
+        dateFilter.addEventListener('click', function() {
+            // TODO: Implement date picker
+            console.log('Date filter clicked');
+        });
+    }
+});
+
+const chatChartEl = document.getElementById("chatChart");
+if (chatChartEl) {
+const ctx = chatChartEl.getContext("2d");
+
+function makeGradient(color) {
+  const g = ctx.createLinearGradient(0, 0, 0, 400);
+  g.addColorStop(0, color.replace("1)", "0.4)"));
+  g.addColorStop(1, color.replace("1)", "0)"));
+  return g;
+}
+
+const datasetsMap = {
+  volume: [
+    { label: "LINE", data: [15, 18, 14, 25, 20, 50, 48], color: "rgba(76,175,80,1)" },
+    { label: "Facebook", data: [5, 15, 20, 16, 17, 25, 20], color: "rgba(33,150,243,1)" }
+  ],
+
+  missed: [
+    { label: "LINE", data: [2, 5, 4, 3, 6, 10, 8], color: "rgba(244,67,54,1)" },
+    { label: "Facebook", data: [1, 3, 2, 2, 5, 7, 6], color: "rgba(255,152,0,1)" }
+  ],
+
+  received: [
+    { label: "LINE", data: [40, 45, 38, 50, 42, 70, 65], color: "rgba(33,150,243,1)" },
+    { label: "Facebook", data: [30, 35, 33, 41, 39, 55, 48], color: "rgba(156,39,176,1)" }
+  ],
+
+  sent: [
+    { label: "LINE", data: [35, 37, 32, 44, 38, 60, 55], color: "rgba(0,150,136,1)" },
+    { label: "Facebook", data: [25, 30, 27, 33, 29, 40, 38], color: "rgba(63,81,181,1)" }
+  ]
+};
+
+function updateLegendColors(type) {
+  const legend = document.querySelector(".chart-legend");
+  if (!legend || !datasetsMap[type]) return;
+
+  const legendItems = legend.querySelectorAll(".legend-item");
+  const datasets = datasetsMap[type];
+
+  legendItems.forEach((item, index) => {
+    const dot = item.querySelector(".legend-color");
+    if (!dot || !datasets[index]) return;
+    dot.style.backgroundColor = datasets[index].color;
+  });
+}
+
+function buildDatasets(type) {
+  return datasetsMap[type].map(d => ({
+    label: d.label,
+    data: d.data,
+    borderColor: d.color,
+    backgroundColor: makeGradient(d.color),
+    fill: true,
+    tension: 0.4,
+    pointRadius: 0
+  }));
+}
+
+const chart = new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    datasets: buildDatasets("volume")
+  },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 3.5,
+        plugins: {
+            legend: {
+                position: "bottom"
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 60,
+
+                ticks: {
+                    stepSize: 15   // ⭐ THIS CONTROLS INTERVAL
+                },
+
+                grid: {
+                    color: "#eee"
+                }
+            },
+
+            x: {
+                grid: {
+                    display: false
+                }
+            }
+        }
+    }
+
+});
+
+updateLegendColors("volume");
+
+
+// 🔥 TAB SWITCH LOGIC
+document.querySelectorAll(".tabs .tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tabs .tab").forEach(t => t.classList.remove("active"));
+    btn.classList.add("active");
+
+    const type = btn.dataset.type;
+    if (!datasetsMap[type]) return;
+
+    chart.data.datasets = buildDatasets(type);
+    chart.update();
+    updateLegendColors(type);
+  });
+});
+}

@@ -1,0 +1,254 @@
+.insights-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.insights-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.insights-panel {
+    background-color: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    transform: scale(0.95);
+    transition: transform 0.3s;
+}
+
+.insights-overlay.active .insights-panel {
+    transform: scale(1);
+}
+
+.insights-header {
+    padding: 16px;
+    border-bottom: 1px solid #e1e4e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.insights-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #1d2129;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.insights-header h2 i {
+    color: #1877f2;
+}
+
+.insights-content {
+    padding: 20px;
+}
+
+/* Overview Cards */
+.insights-overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.overview-card {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.overview-title {
+    font-size: 14px;
+    color: #65676b;
+    margin-bottom: 8px;
+}
+
+.overview-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d2129;
+}
+
+.satisfaction-stars {
+    display: block;
+    font-size: 16px;
+    margin-top: 4px;
+    color: #f8c51c;
+}
+
+/* Insights Sections */
+.insights-section {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.insights-section h3 {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    color: #1d2129;
+}
+
+/* Channel Chart */
+.chart-container {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.channels-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.channel-bar-group {
+    display: flex;
+    align-items: center;
+}
+
+.channel-bar-label {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 12px;
+}
+
+.channel-bar-container {
+    flex: 1;
+    height: 24px;
+    background-color: #ebedf0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.channel-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+/* Trend Chart */
+.trend-line-chart {
+    width: 100%;
+    position: relative;
+}
+
+.trend-svg {
+    width: 100%;
+    height: 200px;
+}
+
+.trend-x-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    color: #65676b;
+    font-size: 12px;
+}
+
+/* Channel Cards */
+.channel-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.channel-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.channel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.channel-info {
+    flex: 1;
+}
+
+.channel-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.channel-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #65676b;
+}
+
+/* Action Buttons */
+.insights-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .insights-overview {
+        grid-template-columns: 1fr;
+    }
+    
+    .channel-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .channel-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

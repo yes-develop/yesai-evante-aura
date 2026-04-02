@@ -1,0 +1,110 @@
+/* เก็บเฉพาะส่วนของ sidebar แบบใหม่ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 60px; /* ลดขนาดความกว้างให้เล็กลง */
+    background-color: #f0f2f5;
+    border-right: 1px solid #e1e4e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0;
+    z-index: 100;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1890ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.sidebar-menu {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .sidebar-menu-item {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #65676b;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+} */
+
+/* .sidebar-menu-item:hover {
+    background-color: rgba(24, 119, 242, 0.1);
+    color: #1877f2;
+} */
+
+.sidebar-menu-item.active {
+    color: #1877f2;
+    background-color: rgba(24, 119, 242, 0.1);
+}
+
+.sidebar-menu-item.selected {
+    color: #fff;
+    background-color: #1877f2;
+}
+
+/* ปรับแต่ง tooltip */
+.sidebar-menu-item .tooltip {
+    position: absolute;
+    left: 60px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    white-space: nowrap;
+    z-index: 1001;
+}
+
+.sidebar-menu-item:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ส่วนด้านล่างของ sidebar */
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom: 16px;
+}
+
+/* ปรับดีไซน์ให้เป็นอิโมจิมากขึ้น */
+.sidebar-emoji {
+    font-size: 22px;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.sidebar-menu-item:hover .sidebar-emoji {
+    opacity: 1;
+    transform: scale(1.1);
+}

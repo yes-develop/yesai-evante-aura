@@ -1,0 +1,1919 @@
+[2025-10-31 09:18:01] Input: {"lineUuid": "U2f9e1ee0df5c63084949e677b18bd07d", "message": "Test message from backend - round 2\! 🚀"}
+[2025-10-31 09:18:01] Parsed: 
+[2025-10-31 09:23:05] Input: {"lineUuid":"Ufc7917503ff98b9eb7e1d72cfbc88daf","message":"yo"}
+[2025-10-31 09:23:05] Parsed: Array
+(
+    [lineUuid] => Ufc7917503ff98b9eb7e1d72cfbc88daf
+    [message] => yo
+)
+
+[2025-10-31 09:27:09] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"yp"}
+[2025-10-31 09:27:09] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => yp
+)
+
+[2025-10-31 09:37:04] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-10-31 09:37:04] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-10-31 10:07:49] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-10-31 10:07:49] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-03 07:46:41] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-11-03 07:46:41] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-03 07:48:40] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hi"}
+[2025-11-03 07:48:40] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hi
+)
+
+[2025-11-03 08:28:39] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-11-03 08:28:39] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-04 08:21:11] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"yes"}
+[2025-11-04 08:21:11] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => yes
+)
+
+[2025-11-04 09:57:58] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hi"}
+[2025-11-04 09:57:58] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hi
+)
+
+[2025-11-04 09:58:12] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"are you ok>?"}
+[2025-11-04 09:58:12] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => are you ok>?
+)
+
+[2025-11-04 10:01:21] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Would you like to schedule a video call to discuss this in more detail?"}
+[2025-11-04 10:01:21] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Would you like to schedule a video call to discuss this in more detail?
+)
+
+[2025-11-04 11:01:37] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-11-04 11:01:37] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-04 11:19:09] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"good"}
+[2025-11-04 11:19:09] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => good
+)
+
+[2025-11-04 11:20:02] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"h"}
+[2025-11-04 11:20:02] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => h
+)
+
+[2025-11-05 03:32:12] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-11-05 03:32:12] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-05 03:52:06] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"yes"}
+[2025-11-05 03:52:06] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => yes
+)
+
+[2025-11-05 03:53:30] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello nice to meet you"}
+[2025-11-05 03:53:30] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello nice to meet you
+)
+
+[2025-11-05 03:54:01] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"jj"}
+[2025-11-05 03:54:01] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => jj
+)
+
+[2025-11-05 04:29:06] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Thank you for reaching out. I'll look into this right away and get back to you as soon as possible."}
+[2025-11-05 04:29:06] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.
+)
+
+[2025-11-05 04:45:18] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"I'll look into that issue and get back to you shortly."}
+[2025-11-05 04:45:18] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => I'll look into that issue and get back to you shortly.
+)
+
+[2025-11-05 04:47:42] Input: {"lineUuid":"Ufc7917503ff98b9eb7e1d72cfbc88daf","message":"hi"}
+[2025-11-05 04:47:42] Parsed: Array
+(
+    [lineUuid] => Ufc7917503ff98b9eb7e1d72cfbc88daf
+    [message] => hi
+)
+
+[2025-11-05 04:59:44] Input: {"lineUuid":"Ufc7917503ff98b9eb7e1d72cfbc88daf","message":"yes"}
+[2025-11-05 04:59:44] Parsed: Array
+(
+    [lineUuid] => Ufc7917503ff98b9eb7e1d72cfbc88daf
+    [message] => yes
+)
+
+[2025-11-05 07:22:57] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"abcsd"}
+[2025-11-05 07:22:57] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => abcsd
+)
+
+[2025-11-05 07:23:27] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"I'll look into that issue and get back to you shortly."}
+[2025-11-05 07:23:27] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => I'll look into that issue and get back to you shortly.
+)
+
+[2025-11-05 08:14:02] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"yse"}
+[2025-11-05 08:14:02] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => yse
+)
+
+[2025-11-05 10:59:58] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-05 10:59:58] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-05 11:00:39] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"right"}
+[2025-11-05 11:00:39] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => right
+)
+
+[2025-11-05 11:08:03] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"y"}
+[2025-11-05 11:08:03] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => y
+)
+
+[2025-11-05 11:09:46] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"🎉🎉🎉🎉😘😘😘🥰"}
+[2025-11-05 11:09:46] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => 🎉🎉🎉🎉😘😘😘🥰
+)
+
+[2025-11-05 11:11:21] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-05 11:11:21] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-06 11:41:41] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"yo"}
+[2025-11-06 11:41:41] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => yo
+)
+
+[2025-11-07 03:22:14] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ok"}
+[2025-11-07 03:22:14] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ok
+)
+
+[2025-11-07 03:47:05] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487223_Screenshot_2568-10-27_at_1.30.11___PM.png","fileName":"Screenshot 2568-10-27 at 1.30.11 PM.png","fileType":"image/png"}
+[2025-11-07 03:47:05] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487223_Screenshot_2568-10-27_at_1.30.11___PM.png
+    [fileName] => Screenshot 2568-10-27 at 1.30.11 PM.png
+    [fileType] => image/png
+)
+
+[2025-11-07 03:47:29] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487247_Screenshot_2568-10-27_at_1.30.11___PM.png","fileName":"Screenshot 2568-10-27 at 1.30.11 PM.png","fileType":"image/png"}
+[2025-11-07 03:47:29] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487247_Screenshot_2568-10-27_at_1.30.11___PM.png
+    [fileName] => Screenshot 2568-10-27 at 1.30.11 PM.png
+    [fileType] => image/png
+)
+
+[2025-11-07 03:48:20] Input: {"lineUuid":"test","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/test.jpg","fileName":"test.jpg","fileType":"image/jpeg"}
+[2025-11-07 03:48:20] Parsed: Array
+(
+    [lineUuid] => test
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/test.jpg
+    [fileName] => test.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-07 03:51:35] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487493_Screenshot_2568-10-27_at_1.30.11___PM.png","fileName":"Screenshot 2568-10-27 at 1.30.11 PM.png","fileType":"image/png"}
+[2025-11-07 03:51:35] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487493_Screenshot_2568-10-27_at_1.30.11___PM.png
+    [fileName] => Screenshot 2568-10-27 at 1.30.11 PM.png
+    [fileType] => image/png
+)
+
+[2025-11-07 03:51:55] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487514_EPS-Computer-Science.pdf","fileName":"EPS-Computer-Science.pdf","fileType":"application/pdf"}
+[2025-11-07 03:51:55] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762487514_EPS-Computer-Science.pdf
+    [fileName] => EPS-Computer-Science.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 03:52:05] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-07 03:52:05] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-07 04:11:41] Input: {"lineUuid":"U6d6325dd1b2e8361ba410961f07de923","message":"..."}
+[2025-11-07 04:11:41] Parsed: Array
+(
+    [lineUuid] => U6d6325dd1b2e8361ba410961f07de923
+    [message] => ...
+)
+
+[2025-11-07 04:19:08] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-07 04:19:08] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-07 04:33:31] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello test"}
+[2025-11-07 04:33:31] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello test
+)
+
+[2025-11-07 04:45:08] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-07 04:45:08] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-07 04:56:43] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hi"}
+[2025-11-07 04:56:43] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hi
+)
+
+[2025-11-07 04:57:43] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"s"}
+[2025-11-07 04:57:43] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => s
+)
+
+[2025-11-07 06:03:10] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-07 06:03:10] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-07 06:03:51] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"ryd"}
+[2025-11-07 06:03:51] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ryd
+)
+
+[2025-11-07 06:30:15] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762497013_functionalsample.pdf","fileName":"functionalsample.pdf","fileType":"application/pdf"}
+[2025-11-07 06:30:15] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762497013_functionalsample.pdf
+    [fileName] => functionalsample.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 07:05:26] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hi"}
+[2025-11-07 07:05:26] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hi
+)
+
+[2025-11-07 07:05:33] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762499131_functionalsample.pdf","fileName":"functionalsample.pdf","fileType":"application/pdf"}
+[2025-11-07 07:05:33] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762499131_functionalsample.pdf
+    [fileName] => functionalsample.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 07:10:16] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-07 07:10:16] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-07 07:21:44] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"tes"}
+[2025-11-07 07:21:44] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => tes
+)
+
+[2025-11-07 07:29:04] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762500543_MPP-PhD-STEM-CV.pdf","fileName":"MPP-PhD-STEM-CV.pdf","fileType":"application/pdf"}
+[2025-11-07 07:29:04] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762500543_MPP-PhD-STEM-CV.pdf
+    [fileName] => MPP-PhD-STEM-CV.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 07:34:44] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762500882_MPP-PhD-STEM-CV.pdf","fileName":"MPP-PhD-STEM-CV.pdf","fileType":"application/pdf"}
+[2025-11-07 07:34:44] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762500882_MPP-PhD-STEM-CV.pdf
+    [fileName] => MPP-PhD-STEM-CV.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 07:37:39] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762501055_functionalsample.pdf","fileName":"functionalsample.pdf","fileType":"application/pdf"}
+[2025-11-07 07:37:39] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762501055_functionalsample.pdf
+    [fileName] => functionalsample.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 07:37:55] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762501073_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-07 07:37:55] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762501073_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-07 08:20:59] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"heloo"}
+[2025-11-07 08:20:59] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => heloo
+)
+
+[2025-11-07 08:21:34] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762503692_Office-Manager.pdf","fileName":"Office-Manager.pdf","fileType":"application/pdf"}
+[2025-11-07 08:21:34] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762503692_Office-Manager.pdf
+    [fileName] => Office-Manager.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-07 08:53:22] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hi"}
+[2025-11-07 08:53:22] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hi
+)
+
+[2025-11-07 08:53:49] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-07 08:53:49] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-07 10:00:59] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello 1"}
+[2025-11-07 10:00:59] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello 1
+)
+
+[2025-11-07 10:10:41] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hhello"}
+[2025-11-07 10:10:41] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hhello
+)
+
+[2025-11-07 10:34:01] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"incoming message new"}
+[2025-11-07 10:34:01] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => incoming message new
+)
+
+[2025-11-07 10:49:54] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762512590_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-07 10:49:54] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762512590_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-07 10:53:33] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"✅"}
+[2025-11-07 10:53:33] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => ✅
+)
+
+[2025-11-07 11:10:13] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-07 11:10:13] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-07 11:11:14] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762513873_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-07 11:11:14] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U2f9e1ee0df5c63084949e677b18bd07d/2025/11/07/1762513873_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-07 11:23:16] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"tes"}
+[2025-11-07 11:23:16] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => tes
+)
+
+[2025-11-07 11:25:28] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"lol"}
+[2025-11-07 11:25:28] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => lol
+)
+
+[2025-11-10 04:18:37] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"Thank you for reaching out. I'll look into this right away and get back to you as soon as possible."}
+[2025-11-10 04:18:37] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.
+)
+
+[2025-11-10 04:25:56] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762748754_Office-Manager.pdf","fileName":"Office-Manager.pdf","fileType":"application/pdf"}
+[2025-11-10 04:25:57] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762748754_Office-Manager.pdf
+    [fileName] => Office-Manager.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 04:34:48] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749286_Event-Coordinator.pdf","fileName":"Event-Coordinator.pdf","fileType":"application/pdf"}
+[2025-11-10 04:34:48] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749286_Event-Coordinator.pdf
+    [fileName] => Event-Coordinator.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 04:40:24] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749622_Project-Manager-Job.pdf","fileName":"Project-Manager-Job.pdf","fileType":"application/pdf"}
+[2025-11-10 04:40:24] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749622_Project-Manager-Job.pdf
+    [fileName] => Project-Manager-Job.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 04:40:52] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749651_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-10 04:40:52] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762749651_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-10 04:41:02] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"I appreciate your message. Let me gather the information you need and I'll provide a comprehensive response shortly."}
+[2025-11-10 04:41:02] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => I appreciate your message. Let me gather the information you need and I'll provide a comprehensive response shortly.
+)
+
+[2025-11-10 04:47:47] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750064_EPS-Computer-Science.pdf","fileName":"EPS-Computer-Science.pdf","fileType":"application/pdf"}
+[2025-11-10 04:47:47] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750064_EPS-Computer-Science.pdf
+    [fileName] => EPS-Computer-Science.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 04:48:43] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750121_MPP-PhD-STEM-CV.pdf","fileName":"MPP-PhD-STEM-CV.pdf","fileType":"application/pdf"}
+[2025-11-10 04:48:43] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750121_MPP-PhD-STEM-CV.pdf
+    [fileName] => MPP-PhD-STEM-CV.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 04:54:02] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750441_functionalsample.pdf","fileName":"functionalsample.pdf","fileType":"application/pdf"}
+[2025-11-10 04:54:02] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750441_functionalsample.pdf
+    [fileName] => functionalsample.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-10 05:00:06] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750804_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-10 05:00:06] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750804_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-10 05:02:19] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750937_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-10 05:02:19] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762750937_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-10 05:50:28] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762753826_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-10 05:50:28] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762753826_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-10 05:51:24] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs."}
+[2025-11-10 05:51:24] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs.
+)
+
+[2025-11-10 05:51:55] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762753914_candidate-man.jpg","fileName":"candidate-man.jpg","fileType":"image/jpeg"}
+[2025-11-10 05:51:55] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Ucd445de304e12f570bce6b51399660d7/2025/11/10/1762753914_candidate-man.jpg
+    [fileName] => candidate-man.jpg
+    [fileType] => image/jpeg
+)
+
+[2025-11-10 05:57:46] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"ye"}
+[2025-11-10 05:57:46] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => ye
+)
+
+[2025-11-10 05:59:09] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"test"}
+[2025-11-10 05:59:09] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => test
+)
+
+[2025-11-10 05:59:49] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"test"}
+[2025-11-10 05:59:49] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => test
+)
+
+[2025-11-10 06:00:59] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"etst"}
+[2025-11-10 06:00:59] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => etst
+)
+
+[2025-11-10 06:12:41] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"from bnackoffice"}
+[2025-11-10 06:12:41] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => from bnackoffice
+)
+
+[2025-11-10 06:14:55] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"test backoffice"}
+[2025-11-10 06:14:55] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => test backoffice
+)
+
+[2025-11-10 06:18:21] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"test backoffice 2"}
+[2025-11-10 06:18:21] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => test backoffice 2
+)
+
+[2025-11-10 06:21:47] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"Would you like to schedule a video call to discuss this in more detail?"}
+[2025-11-10 06:21:47] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => Would you like to schedule a video call to discuss this in more detail?
+)
+
+[2025-11-10 06:25:45] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"test"}
+[2025-11-10 06:25:45] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => test
+)
+
+[2025-11-10 06:28:04] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"Thank you for sharing these details. Would it be helpful if I scheduled a quick call to discuss this further?"}
+[2025-11-10 06:28:04] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => Thank you for sharing these details. Would it be helpful if I scheduled a quick call to discuss this further?
+)
+
+[2025-11-10 06:29:38] Input: {"lineUuid":"Ucd445de304e12f570bce6b51399660d7","message":"I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs."}
+[2025-11-10 06:29:38] Parsed: Array
+(
+    [lineUuid] => Ucd445de304e12f570bce6b51399660d7
+    [message] => I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs.
+)
+
+[2025-11-11 04:55:41] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U88b6298995f171d50d9326be18c4849f/2025/11/11/1762836939_functionalsample.pdf","fileName":"functionalsample.pdf","fileType":"application/pdf"}
+[2025-11-11 04:55:41] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U88b6298995f171d50d9326be18c4849f/2025/11/11/1762836939_functionalsample.pdf
+    [fileName] => functionalsample.pdf
+    [fileType] => application/pdf
+)
+
+[2025-11-11 05:05:10] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","message":"Hi Steven"}
+[2025-11-11 05:05:10] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [message] => Hi Steven
+)
+
+[2025-11-11 06:44:52] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","message":"Hi"}
+[2025-11-11 06:44:52] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [message] => Hi
+)
+
+[2025-11-11 06:45:14] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U88b6298995f171d50d9326be18c4849f/2025/11/11/1762843506_Screenshot_62.png","fileName":"Screenshot_62.png","fileType":"image/png"}
+[2025-11-11 06:45:14] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U88b6298995f171d50d9326be18c4849f/2025/11/11/1762843506_Screenshot_62.png
+    [fileName] => Screenshot_62.png
+    [fileType] => image/png
+)
+
+[2025-11-11 07:01:25] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","message":"Thank you for reaching out. I'll look into this right away and get back to you as soon as possible."}
+[2025-11-11 07:01:25] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [message] => Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.
+)
+
+[2025-11-11 07:01:36] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","message":"ฟหกฟหก"}
+[2025-11-11 07:01:36] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [message] => ฟหกฟหก
+)
+
+[2025-11-12 08:45:24] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-12 08:45:24] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-12 10:06:49] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Hello"}
+[2025-11-12 10:06:49] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Hello
+)
+
+[2025-11-12 10:18:13] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-12 10:18:13] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-12 10:33:36] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read"}
+[2025-11-12 10:33:36] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read
+)
+
+[2025-11-12 10:46:59] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-12 10:46:59] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-12 10:48:02] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-12 10:48:02] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-12 11:19:39] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Hello from backoffice"}
+[2025-11-12 11:19:39] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Hello from backoffice
+)
+
+[2025-11-12 11:22:33] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-12 11:22:33] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 03:35:19] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-13 03:35:19] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-13 04:08:50] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-13 04:08:50] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-13 04:13:26] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 04:13:26] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 06:23:45] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 06:23:45] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 06:29:59] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"tes"}
+[2025-11-13 06:29:59] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => tes
+)
+
+[2025-11-13 06:43:42] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read"}
+[2025-11-13 06:43:42] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read
+)
+
+[2025-11-13 07:20:02] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 07:20:02] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 07:23:21] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read"}
+[2025-11-13 07:23:21] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read
+)
+
+[2025-11-13 07:23:53] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read"}
+[2025-11-13 07:23:53] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read
+)
+
+[2025-11-13 07:26:42] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read2"}
+[2025-11-13 07:26:42] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read2
+)
+
+[2025-11-13 07:26:55] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read 2"}
+[2025-11-13 07:26:55] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read 2
+)
+
+[2025-11-13 07:38:30] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"read 3"}
+[2025-11-13 07:38:30] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => read 3
+)
+
+[2025-11-13 07:45:33] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 07:45:33] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 08:15:29] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test new"}
+[2025-11-13 08:15:29] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test new
+)
+
+[2025-11-13 08:31:19] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test read"}
+[2025-11-13 08:31:19] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test read
+)
+
+[2025-11-13 08:40:51] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"tset hello"}
+[2025-11-13 08:40:51] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => tset hello
+)
+
+[2025-11-13 09:05:30] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"testset"}
+[2025-11-13 09:05:30] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => testset
+)
+
+[2025-11-13 09:05:40] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-13 09:05:40] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-13 09:08:22] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"rwawr"}
+[2025-11-13 09:08:22] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => rwawr
+)
+
+[2025-11-13 10:19:38] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test from frontend"}
+[2025-11-13 10:19:38] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test from frontend
+)
+
+[2025-11-13 10:30:08] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 10:30:08] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-13 11:30:44] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"est"}
+[2025-11-13 11:30:44] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => est
+)
+
+[2025-11-13 11:31:06] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-13 11:31:06] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-14 03:59:37] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello"}
+[2025-11-14 03:59:37] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello
+)
+
+[2025-11-17 04:48:45] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"hello from backoffice"}
+[2025-11-17 04:48:45] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => hello from backoffice
+)
+
+[2025-11-17 06:24:09] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Let me check our inventory and pricing options for you."}
+[2025-11-17 06:24:09] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Let me check our inventory and pricing options for you.
+)
+
+[2025-11-17 08:37:35] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"tere"}
+[2025-11-17 08:37:35] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => tere
+)
+
+[2025-11-18 08:12:02] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-18 08:12:02] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-18 08:15:30] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"I've attached the document you requested. Please let me know if you need anything else."}
+[2025-11-18 08:15:30] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => I've attached the document you requested. Please let me know if you need anything else.
+)
+
+[2025-11-18 08:16:56] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"Would you like to schedule a video call to discuss this in more detail?"}
+[2025-11-18 08:16:56] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => Would you like to schedule a video call to discuss this in more detail?
+)
+
+[2025-11-21 10:28:47] Input: {"lineUuid":"U2f9e1ee0df5c63084949e677b18bd07d","message":"test"}
+[2025-11-21 10:28:47] Parsed: Array
+(
+    [lineUuid] => U2f9e1ee0df5c63084949e677b18bd07d
+    [message] => test
+)
+
+[2025-11-27 11:30:54] Input: {"lineUuid":"U88b6298995f171d50d9326be18c4849f","message":"Test"}
+[2025-11-27 11:30:54] Parsed: Array
+(
+    [lineUuid] => U88b6298995f171d50d9326be18c4849f
+    [message] => Test
+)
+
+[2025-11-28 07:14:27] Input: {"lineUuid":"Udf05951c2b45ebcd85ead33ad9c65a12","message":"hi how are you"}
+[2025-11-28 07:14:27] Parsed: Array
+(
+    [lineUuid] => Udf05951c2b45ebcd85ead33ad9c65a12
+    [message] => hi how are you
+)
+
+[2025-11-28 07:14:49] Input: {"lineUuid":"Udf05951c2b45ebcd85ead33ad9c65a12","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Udf05951c2b45ebcd85ead33ad9c65a12/2025/11/28/1764314083_Screenshot_62.png","fileName":"Screenshot_62.png","fileType":"image/png"}
+[2025-11-28 07:14:49] Parsed: Array
+(
+    [lineUuid] => Udf05951c2b45ebcd85ead33ad9c65a12
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Udf05951c2b45ebcd85ead33ad9c65a12/2025/11/28/1764314083_Screenshot_62.png
+    [fileName] => Screenshot_62.png
+    [fileType] => image/png
+)
+
+[2025-11-28 07:15:30] Input: {"lineUuid":"Udf05951c2b45ebcd85ead33ad9c65a12","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Udf05951c2b45ebcd85ead33ad9c65a12/2025/11/28/1764314126_ChatGPT_Image_Aug_19__2025__05_57_25_PM.png","fileName":"ChatGPT Image Aug 19, 2025, 05_57_25 PM.png","fileType":"image/png"}
+[2025-11-28 07:15:30] Parsed: Array
+(
+    [lineUuid] => Udf05951c2b45ebcd85ead33ad9c65a12
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Udf05951c2b45ebcd85ead33ad9c65a12/2025/11/28/1764314126_ChatGPT_Image_Aug_19__2025__05_57_25_PM.png
+    [fileName] => ChatGPT Image Aug 19, 2025, 05_57_25 PM.png
+    [fileType] => image/png
+)
+
+[2025-11-28 07:15:41] Input: {"lineUuid":"Udf05951c2b45ebcd85ead33ad9c65a12","message":"asdfasdfasdf"}
+[2025-11-28 07:15:41] Parsed: Array
+(
+    [lineUuid] => Udf05951c2b45ebcd85ead33ad9c65a12
+    [message] => asdfasdfasdf
+)
+
+[2026-02-09 07:51:46] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/09/1770619893_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-09 07:51:46] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/09/1770619893_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-11 10:58:26] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีค่ะ"}
+[2026-02-11 10:58:26] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีค่ะ
+)
+
+[2026-02-11 11:05:15] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดี"}
+[2026-02-11 11:05:15] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดี
+)
+
+[2026-02-11 11:06:45] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีค่ะ"}
+[2026-02-11 11:06:45] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีค่ะ
+)
+
+[2026-02-11 11:11:33] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีครับ"}
+[2026-02-11 11:11:33] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีครับ
+)
+
+[2026-02-11 11:16:19] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีค่ะ"}
+[2026-02-11 11:16:19] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีค่ะ
+)
+
+[2026-02-11 11:17:44] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีจ้า"}
+[2026-02-11 11:17:44] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีจ้า
+)
+
+[2026-02-11 11:18:14] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีจ้า"}
+[2026-02-11 11:18:14] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีจ้า
+)
+
+[2026-02-11 11:19:37] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/11/1770805165_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-11 11:19:37] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/11/1770805165_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-11 11:20:20] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/11/1770805213_Chatbot.docx","fileName":"Chatbot.docx","fileType":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
+[2026-02-11 11:20:20] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/02/11/1770805213_Chatbot.docx
+    [fileName] => Chatbot.docx
+    [fileType] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+)
+
+[2026-02-11 11:23:59] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"เวิร์คนะ"}
+[2026-02-11 11:23:59] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => เวิร์คนะ
+)
+
+[2026-02-11 11:24:48] Input: {"lineUuid":"Uab631741bd5400c1278071b4d477db2f","message":"สวัสดีครับผม"}
+[2026-02-11 11:24:48] Parsed: Array
+(
+    [lineUuid] => Uab631741bd5400c1278071b4d477db2f
+    [message] => สวัสดีครับผม
+)
+
+[2026-02-19 05:50:00] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771476582_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 05:50:00] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771476582_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 06:02:20] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477328_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 06:02:20] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477328_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 06:04:59] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477493_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 06:04:59] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477493_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 06:05:35] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477524_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 06:05:35] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771477524_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 07:29:05] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771482539_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 07:29:05] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771482539_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 08:10:50] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771485045_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 08:10:50] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771485045_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 08:30:52] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771486246_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 08:30:52] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771486246_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 09:24:04] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771489440_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 09:24:04] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771489440_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 09:27:18] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771489632_Cammands.docx","fileName":"Cammands.docx","fileType":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
+[2026-02-19 09:27:18] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771489632_Cammands.docx
+    [fileName] => Cammands.docx
+    [fileType] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+)
+
+[2026-02-19 09:28:47] Input: {"lineUuid":"U0affbeb4f61628c6a8de572c446e67c7","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U0affbeb4f61628c6a8de572c446e67c7/2026/02/19/1771489721_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 09:28:47] Parsed: Array
+(
+    [lineUuid] => U0affbeb4f61628c6a8de572c446e67c7
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U0affbeb4f61628c6a8de572c446e67c7/2026/02/19/1771489721_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 09:45:54] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test"}
+[2026-02-19 09:45:54] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test
+)
+
+[2026-02-19 09:46:14] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771490769_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 09:46:14] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771490769_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 09:47:14] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test"}
+[2026-02-19 09:47:14] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test
+)
+
+[2026-02-19 09:48:54] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test1"}
+[2026-02-19 09:48:54] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test1
+)
+
+[2026-02-19 10:31:26] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test"}
+[2026-02-19 10:31:26] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test
+)
+
+[2026-02-19 10:35:02] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771493697_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 10:35:02] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771493697_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-19 10:38:50] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"สวัสดี"}
+[2026-02-19 10:38:50] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => สวัสดี
+)
+
+[2026-02-19 11:44:55] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test test"}
+[2026-02-19 11:44:55] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test test
+)
+
+[2026-02-19 11:45:54] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771497930_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-02-19 11:45:54] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/U5004e2feffa724902a79d028e1fad965/2026/02/19/1771497930_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-02-23 09:23:21] Input: {"lineUuid":"U5004e2feffa724902a79d028e1fad965","message":"test"}
+[2026-02-23 09:23:21] Parsed: Array
+(
+    [lineUuid] => U5004e2feffa724902a79d028e1fad965
+    [message] => test
+)
+
+[2026-02-27 05:08:06] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีครับ"}
+[2026-02-27 05:08:06] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีครับ
+)
+
+[2026-03-02 09:52:52] Input: {"lineUuid":"Ued3b57a3736fdfa3d98f575843d1b00c","message":"ไม่บอก"}
+[2026-03-02 09:52:52] Parsed: Array
+(
+    [lineUuid] => Ued3b57a3736fdfa3d98f575843d1b00c
+    [message] => ไม่บอก
+)
+
+[2026-03-04 08:12:53] Input: {"lineUuid":"Ued3b57a3736fdfa3d98f575843d1b00c","message":"Schedule มีปัญหาจัดเลยครับ มาช่วยที"}
+[2026-03-04 08:12:53] Parsed: Array
+(
+    [lineUuid] => Ued3b57a3736fdfa3d98f575843d1b00c
+    [message] => Schedule มีปัญหาจัดเลยครับ มาช่วยที
+)
+
+<<<<<<< Updated upstream
+[2026-03-06 06:25:19] Input: {"lineUuid":"Ued3b57a3736fdfa3d98f575843d1b00c","message":"เห้ย ใช้งานได้ละว้าา"}
+[2026-03-06 06:25:19] Parsed: Array
+(
+    [lineUuid] => Ued3b57a3736fdfa3d98f575843d1b00c
+    [message] => เห้ย ใช้งานได้ละว้าา
+)
+
+[2026-03-06 06:27:02] Input: {"lineUuid":"Ued3b57a3736fdfa3d98f575843d1b00c","message":"เห้ย มันบัค🫠"}
+[2026-03-06 06:27:02] Parsed: Array
+(
+    [lineUuid] => Ued3b57a3736fdfa3d98f575843d1b00c
+    [message] => เห้ย มันบัค🫠
+)
+
+[2026-03-06 06:38:06] Input: {"lineUuid":"U06cf045da8f7bedf0518e78fc1e6358a","message":"โหล"}
+[2026-03-06 06:38:06] Parsed: Array
+(
+    [lineUuid] => U06cf045da8f7bedf0518e78fc1e6358a
+    [message] => โหล
+=======
+[2026-03-05 09:44:00] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"Test Backoffice"}
+[2026-03-05 09:44:00] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => Test Backoffice
+)
+
+[2026-03-06 07:59:41] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-06 07:59:41] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-06 08:00:04] Input: {"lineUuid":33749687704679756,"message":"test multi"}
+[2026-03-06 08:00:04] Parsed: Array
+(
+    [lineUuid] => 33749687704679756
+    [message] => test multi
+)
+
+[2026-03-06 08:02:22] Input: {"lineUuid":33749687704679756,"message":"test multi 2"}
+[2026-03-06 08:02:22] Parsed: Array
+(
+    [lineUuid] => 33749687704679756
+    [message] => test multi 2
+)
+
+[2026-03-06 08:03:50] Input: {"lineUuid":33749687704679756,"message":"test multi 2"}
+[2026-03-06 08:03:50] Parsed: Array
+(
+    [lineUuid] => 33749687704679756
+    [message] => test multi 2
+)
+
+[2026-03-06 08:44:29] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-06 08:44:29] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-06 08:48:53] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-06 08:48:53] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-06 09:14:45] Input: {"lineUuid":33749687704679756,"message":"test multi"}
+[2026-03-06 09:14:45] Parsed: Array
+(
+    [lineUuid] => 33749687704679756
+    [message] => test multi
+)
+
+[2026-03-06 09:16:14] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-06 09:16:14] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-06 10:34:52] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สอบถามได้ครับ"}
+[2026-03-06 10:34:52] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สอบถามได้ครับ
+)
+
+[2026-03-06 10:37:38] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สอบถามราคาหรือบริการครับ"}
+[2026-03-06 10:37:38] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สอบถามราคาหรือบริการครับ
+)
+
+[2026-03-06 10:40:38] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีครับ"}
+[2026-03-06 10:40:38] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีครับ
+)
+
+[2026-03-06 10:40:57] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สอบถามอะไรดีครับ"}
+[2026-03-06 10:40:57] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สอบถามอะไรดีครับ
+)
+
+[2026-03-06 10:41:47] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีครับ"}
+[2026-03-06 10:41:47] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีครับ
+)
+
+[2026-03-06 10:42:04] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สอบถามเรื่องบริการหรือราคาครับ"}
+[2026-03-06 10:42:04] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สอบถามเรื่องบริการหรือราคาครับ
+)
+
+[2026-03-06 10:42:30] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"บริการไหนดีครับ"}
+[2026-03-06 10:42:30] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => บริการไหนดีครับ
+)
+
+[2026-03-06 10:44:57] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดีครับ"}
+[2026-03-06 10:44:57] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดีครับ
+)
+
+[2026-03-06 10:45:17] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สอบถามบริการหรือราคาอะไรดีครับ"}
+[2026-03-06 10:45:17] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สอบถามบริการหรือราคาอะไรดีครับ
+)
+
+[2026-03-06 10:45:37] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สนใจเช่าอะไรดีครับ"}
+[2026-03-06 10:45:37] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สนใจเช่าอะไรดีครับ
+)
+
+[2026-03-06 10:45:53] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"ได้ครับ"}
+[2026-03-06 10:45:53] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => ได้ครับ
+)
+
+[2026-03-06 12:19:27] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-06 12:19:27] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-09 03:53:37] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test multi"}
+[2026-03-09 03:53:37] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test multi
+)
+
+[2026-03-09 04:41:45] Input: {"lineUuid":1769614031091655,"message":"test multi1"}
+[2026-03-09 04:41:45] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi1
+)
+
+[2026-03-09 04:44:47] Input: {"lineUuid":1769614031091655,"message":"test multi"}
+[2026-03-09 04:44:47] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi
+)
+
+[2026-03-09 04:45:54] Input: {"lineUuid":1769614031091655,"message":"test multi2"}
+[2026-03-09 04:45:54] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [message] => test multi2
+)
+
+[2026-03-09 04:47:37] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test multi2"}
+[2026-03-09 04:47:37] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test multi2
+)
+
+[2026-03-09 05:31:06] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice"}
+[2026-03-09 05:31:06] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice
+)
+
+[2026-03-09 07:08:39] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice2"}
+[2026-03-09 07:08:39] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice2
+)
+
+[2026-03-09 07:09:06] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/09/1773036535_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-09 07:09:06] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/09/1773036535_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+>>>>>>> Stashed changes
+)
+
+[2026-03-10 07:25:27] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773123918_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 07:25:27] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773123918_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-10 07:26:47] Input: {"lineUuid":"1769614031091655","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773124003_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 07:26:47] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773124003_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-10 10:14:08] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice2"}
+[2026-03-10 10:14:08] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice2
+)
+
+[2026-03-10 10:21:17] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice"}
+[2026-03-10 10:21:17] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice
+)
+
+[2026-03-10 10:23:00] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773134570_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 10:23:00] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773134570_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-10 10:24:55] Input: {"lineUuid":"33749687704679757","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/33749687704679757/2026/03/10/1773134689_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 10:24:55] Parsed: Array
+(
+    [lineUuid] => 33749687704679757
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/33749687704679757/2026/03/10/1773134689_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-10 10:25:10] Input: {"lineUuid":"1769614031091655","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773134702_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 10:25:10] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773134702_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-10 10:32:14] Input: {"lineUuid":"1769614031091655","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773135129_Cammands.docx","fileName":"Cammands.docx","fileType":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
+[2026-03-10 10:32:14] Parsed: Array
+(
+    [lineUuid] => 1769614031091655
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/1769614031091655/2026/03/10/1773135129_Cammands.docx
+    [fileName] => Cammands.docx
+    [fileType] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+)
+
+[2026-03-10 10:33:39] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773135213_Cammands.docx","fileName":"Cammands.docx","fileType":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
+[2026-03-10 10:33:39] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773135213_Cammands.docx
+    [fileName] => Cammands.docx
+    [fileType] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+)
+
+[2026-03-10 12:18:28] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice5"}
+[2026-03-10 12:18:28] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice5
+)
+
+[2026-03-10 12:19:32] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test backoffice5"}
+[2026-03-10 12:19:32] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test backoffice5
+)
+
+[2026-03-10 12:22:01] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773141715_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-10 12:22:01] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/10/1773141715_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-11 04:08:01] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test back office 1"}
+[2026-03-11 04:08:01] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test back office 1
+)
+
+[2026-03-11 05:02:01] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test back 1"}
+[2026-03-11 05:02:01] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test back 1
+)
+
+[2026-03-11 05:18:31] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test back1"}
+[2026-03-11 05:18:31] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test back1
+)
+
+[2026-03-11 07:08:12] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773209287_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-11 07:08:12] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773209287_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-11 07:11:33] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773209488_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-11 07:11:33] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773209488_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-11 07:34:45] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773210879_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-11 07:34:45] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773210879_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-11 07:36:33] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773210986_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-11 07:36:33] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/11/1773210986_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-11 07:43:13] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"สวัสดี"}
+[2026-03-11 07:43:13] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => สวัสดี
+)
+
+[2026-03-11 08:03:55] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test chat from back office1"}
+[2026-03-11 08:03:55] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test chat from back office1
+)
+
+[2026-03-12 05:23:12] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test back"}
+[2026-03-12 05:23:12] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test back
+)
+
+[2026-03-12 05:23:52] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773289425_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 05:23:52] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773289425_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 05:24:00] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773289435_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-12 05:24:00] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773289435_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-12 05:35:38] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test back"}
+[2026-03-12 05:35:38] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test back
+)
+
+[2026-03-12 05:35:51] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290145_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 05:35:51] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290145_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 05:36:05] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290157_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-12 05:36:05] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290157_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-12 05:49:00] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290935_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 05:49:00] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773290935_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 05:51:14] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773291069_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 05:51:14] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773291069_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 06:13:50] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773292425_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 06:13:50] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773292425_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 07:02:59] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773295374_Cammands.docx","fileName":"Cammands.docx","fileType":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
+[2026-03-12 07:02:59] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773295374_Cammands.docx
+    [fileName] => Cammands.docx
+    [fileType] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+)
+
+[2026-03-12 07:36:10] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773297354_Test.pdf","fileName":"Test.pdf","fileType":"application/pdf"}
+[2026-03-12 07:36:10] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773297354_Test.pdf
+    [fileName] => Test.pdf
+    [fileType] => application/pdf
+)
+
+[2026-03-12 07:37:51] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773297461_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-12 07:37:51] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773297461_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+
+[2026-03-12 09:01:14] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook"}
+[2026-03-12 09:01:14] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook
+)
+
+[2026-03-12 09:06:57] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook2"}
+[2026-03-12 09:06:57] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook2
+)
+
+[2026-03-12 09:07:49] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook3"}
+[2026-03-12 09:07:49] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook3
+)
+
+[2026-03-12 09:11:52] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook4"}
+[2026-03-12 09:11:52] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook4
+)
+
+[2026-03-12 09:14:49] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook5"}
+[2026-03-12 09:14:49] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook5
+)
+
+[2026-03-12 09:15:38] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook6"}
+[2026-03-12 09:15:38] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook6
+)
+
+[2026-03-12 09:21:27] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"test webhook7"}
+[2026-03-12 09:21:27] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => test webhook7
+)
+
+[2026-03-12 10:31:22] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"Test manual webhook"}
+[2026-03-12 10:31:22] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => Test manual webhook
+)
+
+[2026-03-12 11:27:03] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"Test Manual Line Webhook1"}
+[2026-03-12 11:27:03] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => Test Manual Line Webhook1
+)
+
+[2026-03-12 12:20:40] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","message":"Test Manual Line Webhook 1"}
+[2026-03-12 12:20:40] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [message] => Test Manual Line Webhook 1
+)
+
+[2026-03-12 12:24:22] Input: {"lineUuid":"Uc458867841db49462019b0eb5e4e6752","fileUrl":"https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773314655_yes.jpg","fileName":"yes.jpg","fileType":"image/jpeg"}
+[2026-03-12 12:24:22] Parsed: Array
+(
+    [lineUuid] => Uc458867841db49462019b0eb5e4e6752
+    [fileUrl] => https://storage.googleapis.com/n8nyesaibucket/chat_files/Uc458867841db49462019b0eb5e4e6752/2026/03/12/1773314655_yes.jpg
+    [fileName] => yes.jpg
+    [fileType] => image/jpeg
+)
+

@@ -1,0 +1,122 @@
+/* Styles for the improved Smart Suggestions */
+
+.ai-suggestion {
+    position: relative;
+}
+
+.ai-suggestion h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.suggestion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.suggestion-item {
+    background-color: #f5f9ff;
+    border: 1px solid #e1e8f5;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.suggestion-item:hover {
+    background-color: #e9f2ff;
+    border-color: #c5d8f5;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.suggestion-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    color: #888;
+    text-align: center;
+}
+
+.suggestion-placeholder i {
+    font-size: 24px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.suggestion-loading {
+    padding: 20px 15px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+.suggestion-error {
+    padding: 15px;
+    background-color: #fff0f0;
+    border-radius: 8px;
+    color: #d93025;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.suggestion-error i {
+    font-size: 18px;
+}
+
+.refresh-suggestions-btn {
+    width: 70%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: auto; /* 👈 ตรงนี้! ทำให้ปุ่มอยู่ตรงกลาง */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+
+.refresh-suggestions-btn:hover {
+    background-color: #999898;
+}
+
+.refresh-suggestions-btn i {
+    font-size: 12px;
+}
+
+.suggestion-placeholder p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/* Animation for spinner */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fa-spin {
+    animation: spin 1s infinite linear;
+}

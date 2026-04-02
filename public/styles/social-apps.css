@@ -1,0 +1,427 @@
+/* สไตล์สำหรับ Social Apps Popup */
+
+/* พื้นหลังทึบแสงสำหรับ popup */
+.social-apps-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.social-apps-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* กล่อง popup */
+.social-apps-popup {
+    background-color: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: transform 0.3s;
+}
+
+.social-apps-overlay.active .social-apps-popup {
+    transform: scale(1);
+}
+
+.social-apps-header {
+    padding: 16px;
+    border-bottom: 1px solid #e1e4e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-apps-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #1d2129;
+}
+
+.social-apps-content {
+    padding: 20px;
+}
+
+/* Grid layout สำหรับ social apps */
+.social-apps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.social-app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.social-app-item:hover {
+    background-color: #f0f2f5;
+    transform: translateY(-2px);
+}
+
+.social-app-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.social-app-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2129;
+}
+
+/* สไตล์เฉพาะสำหรับแต่ละแอพ */
+.line-icon {
+    background-color: #06c755;
+}
+
+.messenger-icon {
+    background-color: #0084ff;
+}
+
+.whatsapp-icon {
+    background-color: #25d366;
+}
+
+.instagram-icon {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.telegram-icon {
+    background-color: #0088cc;
+}
+
+.twitter-icon {
+    background-color: #1da1f2;
+}
+
+.wechat-icon {
+    background-color: #07c160;
+}
+
+.shopee-icon {
+    background-color: #ee4d2d;
+}
+
+.lazada-icon {
+    background-color: #0f146d;
+}
+
+.tiktok-icon {
+    background-color: #000000;
+}
+
+/* เพิ่ม CSS สำหรับ Source App Badge และ Filter */
+
+/* Source App Badge */
+.conversation-avatar {
+    position: relative;
+    height: 50px;
+}
+
+.source-app-badge {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.messenger-badge {
+    background-color: #0084ff;
+}
+
+.line-badge {
+    background-color: #06c755;
+}
+
+.instagram-badge {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.shopee-badge {
+    background-color: #ee4d2d;
+}
+
+.lazada-badge {
+    background-color: #0f146d;
+}
+
+.tiktok-badge {
+    background-color: #000000;
+}
+
+.whatsapp-badge {
+    background-color: #25d366;
+}
+
+.telegram-badge {
+    background-color: #0088cc;
+}
+
+.manual-badge {
+    background-color: #FF9800;
+}
+
+.facebook-badge {
+    background-color: #1877F2;
+}
+
+/* Search and Filter container */
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.search-box {
+    flex-grow: 1;
+    position: relative;
+}
+
+/* Filter dropdown */
+.filter-dropdown {
+    position: relative;
+}
+
+.filter-btn {
+    background-color: #f0f2f5;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #65676b;
+    transition: background-color 0.2s;
+}
+
+.filter-btn:hover {
+    background-color: #e4e6eb;
+}
+
+.filter-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 5px);
+    background-color: white;
+    min-width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    overflow: hidden;
+    animation: fadeInDown 0.2s ease;
+}
+
+.filter-dropdown-content.show {
+    display: block;
+}
+
+.filter-option {
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filter-option:hover {
+    background-color: #f0f2f5;
+}
+
+.filter-option.selected {
+    background-color: #e7f3ff;
+    color: #1877f2;
+}
+
+.filter-option i {
+    font-size: 14px;
+    width: 18px;
+    text-align: center;
+}
+
+/* Filter chips */
+.filter-chips {
+    padding: 8px 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.active-filter-chip {
+    background-color: #e7f3ff;
+    color: #1877f2;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.active-filter-chip i {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* Empty state for no filtered conversations */
+.empty-conversations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    color: #65676b;
+}
+
+.empty-conversations i {
+    font-size: 32px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.empty-conversations p {
+    margin-bottom: 16px;
+}
+
+.clear-filter-btn {
+    margin-top: 8px;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-header-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.source-app-label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #f0f2f5;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.source-app-icon {
+    font-size: 10px;
+}
+
+.source-app-name {
+    font-weight: 500;
+}
+
+/* Colors for app icons */
+.messenger-color {
+    color: #0084ff;
+}
+
+.line-color {
+    color: #06c755;
+}
+
+.instagram-color {
+    color: #e1306c;
+}
+
+.shopee-color {
+    color: #ee4d2d;
+}
+
+.lazada-color {
+    color: #0f146d;
+}
+
+.tiktok-color {
+    color: #000000;
+}
+
+.facebook-color {
+    color: #1877F2;
+}
+
+.whatsapp-color {
+    color: #25d366;
+}
+
+.telegram-color {
+    color: #0088cc;
+}
+
+.empty-search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    color: #65676b;
+}
+
+.empty-search-results i {
+    font-size: 32px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.empty-search-results p {
+    margin-bottom: 16px;
+}
+

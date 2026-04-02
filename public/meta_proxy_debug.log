@@ -1,0 +1,991 @@
+[2026-03-10 12:39:42] Request: GET /meta-proxy.php?action=ping | POST: []
+[2026-03-10 12:39:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-10 12:43:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_8207393340 | POST: []
+[2026-03-10 12:43:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-10 12:43:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_66937281823 | POST: []
+[2026-03-10 12:43:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-10 12:43:35] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-10 12:43:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-10 12:43:35] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-10 12:43:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:38:10] Request: GET /meta-proxy.php?action=ping | POST: []
+[2026-03-11 03:38:10] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:39:30] Request: POST /meta-proxy.php | POST: {"action":"ping"}
+[2026-03-11 03:39:30] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679762 | POST: []
+[2026-03-11 03:41:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:55] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679761 | POST: []
+[2026-03-11 03:41:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679760 | POST: []
+[2026-03-11 03:41:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679759 | POST: []
+[2026-03-11 03:41:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679758 | POST: []
+[2026-03-11 03:41:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:59] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_8207393340 | POST: []
+[2026-03-11 03:41:59] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:41:59] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_66937281823 | POST: []
+[2026-03-11 03:41:59] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:42:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 03:42:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:42:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 03:42:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:58:46] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 03:58:46] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:58:47] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 03:58:47] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:59:10] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 03:59:10] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:59:12] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 03:59:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:59:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 03:59:53] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 03:59:54] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 03:59:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:03:30] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office1"}
+[2026-03-11 04:03:30] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:18:27] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 04:18:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:18:27] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 04:18:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:32:12] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 04:32:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:32:13] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 04:32:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:47:21] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=FB_33749687704679757 | POST: []
+[2026-03-11 04:47:21] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:47:21] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=IG_1769614031091655 | POST: []
+[2026-03-11 04:47:21] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:57:22] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 04:57:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:57:25] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 04:57:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:59:07] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 04:59:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 04:59:08] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 04:59:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 05:14:43] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 05:14:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 05:14:44] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 05:14:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 05:29:08] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 05:29:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 05:29:09] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 05:29:09] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:02:33] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:02:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:02:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:02:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:06:26] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:06:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:06:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:06:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:06:55] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:06:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:06:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:06:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:07:31] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:07:31] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:07:32] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:07:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:12:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:12:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:12:45] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:12:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:31:03] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:31:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:31:04] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:31:04] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:33:21] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:33:21] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:33:23] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:33:23] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:34:08] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:34:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:34:09] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:34:09] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:36:02] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:36:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:36:03] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:36:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:37:35] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:37:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:37:35] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:37:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:39:55] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:39:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:39:55] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:39:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:42:13] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:42:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:42:14] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:42:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:44:37] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:44:37] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:44:38] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:44:38] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:50:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:50:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:50:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:50:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:59:33] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679759 | POST: []
+[2026-03-11 07:59:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:59:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679758 | POST: []
+[2026-03-11 07:59:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:59:35] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 07:59:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 07:59:36] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 07:59:36] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:00:06] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:00:06] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:00:49] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test chat from back office1"}
+[2026-03-11 08:00:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:00:49] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test chat from back office1"}}
+[2026-03-11 08:00:51] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_mMQVru9z8mMr6kLaV9p7_jsGp8cKQZhEjBtbfVqIiTa7AybmT2OlkOztDl9azpf7OnLENJhHrGsqSuk2NzkhXg"}
+[2026-03-11 08:02:12] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:02:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:02:42] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test chat from back office2"}
+[2026-03-11 08:02:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:02:42] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test chat from back office2"}}
+[2026-03-11 08:02:44] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_q3-rBca9XrRvBHL_7caiXDsGp8cKQZhEjBtbfVqIiTbLlQD5ZCRZWFm12Df6Ps2IgM3xcK8uiuzJpBco-XK4Jw"}
+[2026-03-11 08:03:10] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:03:10] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:03:11] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:03:11] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:05:07] Request: GET /meta-proxy.php?action=discovery | POST: []
+[2026-03-11 08:05:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:06:11] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:06:11] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:06:11] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-11 08:11:55] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test chat from back office3"}
+[2026-03-11 08:11:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:11:55] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test chat from back office3"}}
+[2026-03-11 08:11:57] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_7Ov4Z7i3ufpaMaeFAnQknDsGp8cKQZhEjBtbfVqIiTa7S5qdcnB8chbMu5pYhGoaLQb3nmZGVHBZah2y7rv7VQ"}
+[11-Mar-2026 08:23:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:24:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:26:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[11-Mar-2026 08:27:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\Maisoon\Yesweb-Internship\AI Chat Automation\Yes Aura\yes-aura\public\meta-proxy.php on line 65
+[2026-03-11 08:27:42] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679764 | POST: []
+[2026-03-11 08:27:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:42] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679763 | POST: []
+[2026-03-11 08:27:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:43] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679762 | POST: []
+[2026-03-11 08:27:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:43] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679761 | POST: []
+[2026-03-11 08:27:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679760 | POST: []
+[2026-03-11 08:27:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679759 | POST: []
+[2026-03-11 08:27:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679758 | POST: []
+[2026-03-11 08:27:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:27:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:27:45] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:27:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:29:12] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:29:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:29:13] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:29:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:32:40] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:32:40] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:32:40] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:32:40] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:34:10] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:34:10] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:34:11] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 08:34:11] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test chat from back office1"}}
+[2026-03-11 08:34:11] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"AJS8SdxOwQnSxXp5AgHxL0N"}}
+[2026-03-11 08:36:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:36:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:36:02] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:36:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:36:22] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:36:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:36:23] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 08:36:23] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test chat from back office1"}}
+[2026-03-11 08:36:23] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"AkZChl026_wUmrGKocZszS1"}}
+[2026-03-11 08:36:42] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test chat from back office1"}
+[2026-03-11 08:36:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:36:43] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 08:36:43] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test chat from back office1"}}
+[2026-03-11 08:36:43] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"ACpipr3Gv6GC4lU6naCKKcy"}}
+[2026-03-11 08:37:28] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test"}
+[2026-03-11 08:37:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:37:28] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test"}}
+[2026-03-11 08:37:29] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_5un6SMRw30Qj72tgxEfAAzsGp8cKQZhEjBtbfVqIiTZcbl8VRyvRS5EPD18YXzMIe8A6zdX4H75vE_6XaKKekg"}
+[2026-03-11 08:38:32] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 08:38:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 08:38:33] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 08:38:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:10:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-11 12:10:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:10:58] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 12:10:58] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:10:59] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 12:10:59] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:14:08] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office1"}
+[2026-03-11 12:14:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:14:08] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:14:08] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test back office1"}}
+[2026-03-11 12:14:10] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"Ao6aZ8Bk1kHmMVZXyBAoEOz"}}
+[2026-03-11 12:14:24] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test"}
+[2026-03-11 12:14:24] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:14:24] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test"}}
+[2026-03-11 12:14:26] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_4FjQGnBpGf9cv2IJhv0BiTsGp8cKQZhEjBtbfVqIiTZ5jozJKlOwzhpq1cRdB6KDjLGOPo4CSQwDopLgXTMblA"}
+[2026-03-11 12:14:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 12:14:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:14:53] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 12:14:53] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:14:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-11 12:14:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:15:12] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:15:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:15:13] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:15:13] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:15:14] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"AVdOA6UK404PSFs8rO-Xzp5"}}
+[2026-03-11 12:16:08] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:16:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:16:09] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:16:09] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:16:10] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"AFGfuz5TuQ36tjLEqaJnEa5"}}
+[2026-03-11 12:16:42] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test"}
+[2026-03-11 12:16:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:16:42] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test"}}
+[2026-03-11 12:16:45] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_LbiyxQQ9_dwJqvIAIbeLQjsGp8cKQZhEjBtbfVqIiTZ1ELm04W5BMSIrG8ZxZBc1nSMEMn_oZUCvJ29K47wOkQ"}
+[2026-03-11 12:17:07] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:17:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:17:08] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:17:08] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:17:08] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"A5qIQQXkwgFufb4IopNauZ9"}}
+[2026-03-11 12:17:49] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:17:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:17:49] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:17:49] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:17:50] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"Ac5PsP-ZdXppkgb8XxjjeZo"}}
+[2026-03-11 12:24:33] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 12:24:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:24:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 12:24:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:24:36] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-11 12:24:36] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:25:33] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:25:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:25:34] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:25:34] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:25:34] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"AwniiCXx9SX7YDhU4I1vVFa"}}
+[2026-03-11 12:28:05] Request: GET /meta-proxy.php?action=discovery | POST: []
+[2026-03-11 12:28:05] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:28:32] Request: GET /meta-proxy.php?action=discovery | POST: []
+[2026-03-11 12:28:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:29:32] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:29:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:29:32] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:29:32] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:29:33] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"ANqjr4s3NVamldSHH43ULt2"}}
+[2026-03-11 12:30:36] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-11 12:30:36] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:30:37] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-11 12:30:37] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:30:38] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-11 12:30:38] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:32:14] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-11 12:32:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-11 12:32:15] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-11 12:32:15] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/17841480589842398/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-11 12:32:15] Meta API response code: 400, Response: {"error":{"message":"(#3) Application does not have the capability to make this API call.","type":"OAuthException","code":3,"fbtrace_id":"ACpBDaTqqXPkJDaCsVxf_R4"}}
+[2026-03-12 03:54:51] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 03:54:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:54:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 03:54:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:54:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 03:54:53] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:55:16] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test back office"}
+[2026-03-12 03:55:16] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:55:16] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test back office"}}
+[2026-03-12 03:55:19] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_LaUhWFmj0WduuPaUMKBGwDsGp8cKQZhEjBtbfVqIiTY0zyBMLHR_oHO2Rj1sQZCSy9zYZIHI9UHjdylz3BgV8A"}
+[2026-03-12 03:55:34] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back office 1"}
+[2026-03-12 03:55:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:55:35] Auto-discovered IG_USER_ID: 17841480589842398
+[2026-03-12 03:55:35] Meta API send to instagram, Recipient: 1769614031091655, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"recipient":{"id":"1769614031091655"},"message":{"text":"test back office 1"}}
+[2026-03-12 03:55:36] Meta API response code: 200, Response: {"recipient_id":"1769614031091655","message_id":"aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDgwNTg5ODQyMzk4OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDA1Njk4MTEwMzYxNjQwMDozMjcxMTMxODc0NDc5MTY5NTI3NzI2NDY5Njg5NDI5MTk2OAZDZD"}
+[2026-03-12 03:59:03] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 03:59:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:59:04] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 03:59:04] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 03:59:06] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 03:59:06] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:11] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 04:00:11] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:13] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 04:00:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:14] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 04:00:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:52] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 04:00:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 04:00:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 04:00:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 04:00:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:03:20] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:03:20] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:03:22] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:03:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:03:22] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:03:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:03:35] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test webhook"}
+[2026-03-12 05:03:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:03:35] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test webhook"}}
+[2026-03-12 05:03:36] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_fmRyblkjzLs7EoS4am4ntzsGp8cKQZhEjBtbfVqIiTbThvDdpcMbO_Y3ewwBmBd9y-nNJUeYUGYXQvFrcRPXrg"}
+[2026-03-12 05:04:15] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test webhook"}
+[2026-03-12 05:04:15] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:04:15] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test webhook"}}
+[2026-03-12 05:04:16] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_1mpRYF2GyHGsaSdclIKoZzsGp8cKQZhEjBtbfVqIiTZYxdpUKJgOPeVS5_y441yEWGp73sptIPqhO0D3wniW0Q"}
+[2026-03-12 05:21:31] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:21:31] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:21:32] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:21:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:21:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:21:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:22:33] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test back"}
+[2026-03-12 05:22:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:22:33] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test back"}}
+[2026-03-12 05:22:34] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_Z_35eHadxTsLMsEuHhi4ETsGp8cKQZhEjBtbfVqIiTas5zut24-I2AER40o5nTIi2nwVAPkG3XjQ0TYINxNRww"}
+[2026-03-12 05:23:00] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back"}
+[2026-03-12 05:23:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:23:00] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 05:24:25] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773289460_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 05:24:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:24:25] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773289460_Test.pdf","is_reusable":true}}}}
+[2026-03-12 05:24:28] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_R4222wAWSekK2OT8dWSMJzsGp8cKQZhEjBtbfVqIiTZQAWQkCOvmt-GAZgfrAdN2_XKc28drbPsraxdzAYBylw","attachment_id":"2192744718196581"}
+[2026-03-12 05:24:42] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773289474_yes.jpg","fileType":"image\/jpeg","fileName":"yes.jpg"}
+[2026-03-12 05:24:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:24:42] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"image","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773289474_yes.jpg","is_reusable":true}}}}
+[2026-03-12 05:24:44] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_BGUSctZvxCiu8E0qMcYCXjsGp8cKQZhEjBtbfVqIiTaseEytCmooauyqbCKUwlVP_t3ScUKCm6XaZahjGyw_XA","attachment_id":"1597915641353810"}
+[2026-03-12 05:34:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:34:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:34:00] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:34:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:34:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:34:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:34:49] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test back"}
+[2026-03-12 05:34:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:34:49] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test back"}}
+[2026-03-12 05:34:51] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_AbUIdH4nOAQRdDKP_98UzTsGp8cKQZhEjBtbfVqIiTax4IpYhow0xKKLSap9lNvyjFqjzogoBW-Y3H2TsDSaIw"}
+[2026-03-12 05:35:01] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290094_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 05:35:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:35:01] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290094_Test.pdf","is_reusable":true}}}}
+[2026-03-12 05:35:03] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_NE-6lngo7hQSKnGadQfqLTsGp8cKQZhEjBtbfVqIiTZpaca6X8SKrKxPkRFZNJ793RzpNCxzmccX-dFEUNUkKA","attachment_id":"2075657806617693"}
+[2026-03-12 05:35:18] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290113_yes.jpg","fileType":"image\/jpeg","fileName":"yes.jpg"}
+[2026-03-12 05:35:18] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:35:18] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"image","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290113_yes.jpg","is_reusable":true}}}}
+[2026-03-12 05:35:20] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_Eoi9_3YO9mgzm7XuvxZv4DsGp8cKQZhEjBtbfVqIiTbdBbt228vMOoJoSMHMpaIaklaC7gis_D5q974pHEnBTA","attachment_id":"1431956541739977"}
+[2026-03-12 05:36:11] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"test back"}
+[2026-03-12 05:36:11] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:36:11] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 05:36:25] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/1769614031091655\/2026\/03\/12\/1773290180_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 05:36:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:36:25] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 05:36:34] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/1769614031091655\/2026\/03\/12\/1773290189_yes.jpg","fileType":"image\/jpeg","fileName":"yes.jpg"}
+[2026-03-12 05:36:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:36:34] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 05:37:43] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:37:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:37:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:37:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:37:46] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:37:46] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:48:44] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:48:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:48:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:48:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:48:46] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:48:46] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:49:08] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290944_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 05:49:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:49:08] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773290944_Test.pdf","is_reusable":true}}}}
+[2026-03-12 05:49:11] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_RTFTBD0KxNVXX2VsqaEybDsGp8cKQZhEjBtbfVqIiTYYHNFQwkONPh38bD2H1mdgHobBsu3ZlNZV4tlYTq2w1g","attachment_id":"1262054355381586"}
+[2026-03-12 05:49:48] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:49:48] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:49:50] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:49:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:49:51] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:49:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:50:55] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:50:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:50:56] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:50:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:50:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:50:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:51:25] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:51:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:51:26] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:51:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:51:27] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:51:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:57:23] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:57:23] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:57:23] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:57:23] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:57:24] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:57:24] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:57:43] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773291457_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 05:57:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:57:43] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773291457_Test.pdf","is_reusable":true}}}}
+[2026-03-12 05:57:46] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_bQsS9qA1Bv2MF7WvdDUpATsGp8cKQZhEjBtbfVqIiTbcvWig4wjyvVeVqkyq5hfyyVTnEBOGE1rkPWJ9vNpI9g","attachment_id":"1263326699083063"}
+[2026-03-12 05:58:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 05:58:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:58:02] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 05:58:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 05:58:03] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 05:58:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:00:43] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:00:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:00:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:00:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:00:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:00:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:01:12] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773291665_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 06:01:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:01:12] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773291665_Test.pdf","is_reusable":true}}}}
+[2026-03-12 06:01:14] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_f2tiWHwgEZxrvCgfnPPDpDsGp8cKQZhEjBtbfVqIiTZM-d1o1K2CS0dUr-Gc6XXeNwuHjAX67mmxTI1hS8SNFw","attachment_id":"1888537751849241"}
+[2026-03-12 06:01:57] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:01:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:01:58] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:01:58] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:01:59] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:01:59] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:02:44] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:02:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:02:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:02:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:02:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:02:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:11:25] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:11:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:11:25] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:11:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:11:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:11:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:11] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773292317_Cammands.docx","fileType":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","fileName":"Cammands.docx"}
+[2026-03-12 06:12:11] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:11] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773292317_Cammands.docx","is_reusable":true}}}}
+[2026-03-12 06:12:14] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_7HmRYmzt838410M4RzkANjsGp8cKQZhEjBtbfVqIiTZ-PsJJHNG1Gmb2E9S_IC3s9DbOUCpQFWpABdodmi77aA","attachment_id":"904456832482133"}
+[2026-03-12 06:12:32] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/1769614031091655\/2026\/03\/12\/1773292338_Cammands.docx","fileType":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","fileName":"Cammands.docx"}
+[2026-03-12 06:12:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:32] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 06:12:32] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/1769614031091655\/2026\/03\/12\/1773292342_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 06:12:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:32] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 06:12:49] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:12:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:50] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:12:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:12:50] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:12:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:19:25] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 06:19:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:19:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 06:19:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:19:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 06:19:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:19:47] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773292776_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 06:19:47] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 06:19:47] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773292776_Test.pdf","is_reusable":true}}}}
+[2026-03-12 06:19:50] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_kDu9wX_OGMe__2lAxeoG7zsGp8cKQZhEjBtbfVqIiTZ8wyXoCMfp3e6RpQeYyojvO2TM6JNF-0ha-9Zyw0wcvA","attachment_id":"1582904286332088"}
+[2026-03-12 07:01:50] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:01:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:01:52] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:01:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:01:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:01:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:06:13] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:06:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:06:13] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:06:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:06:14] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:06:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:06:33] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295588_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 07:06:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:06:33] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295588_Test.pdf","filename":"Test.pdf","is_reusable":true}}}}
+[2026-03-12 07:06:34] Meta API response code: 400, Response: {"error":{"message":"(#100) Invalid keys \"filename\" were found in param \"name_placeholder\".","type":"OAuthException","code":100,"fbtrace_id":"ADokDhWCK0Qg7NpawzQ0T2M"}}
+[2026-03-12 07:06:58] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:06:58] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:07:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:07:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:07:00] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:07:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:07:41] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test back"}
+[2026-03-12 07:07:41] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:07:41] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test back"}}
+[2026-03-12 07:07:42] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_JQxHsgWHnjQMMmYGBXHUDzsGp8cKQZhEjBtbfVqIiTZv38rxrJy8jjFbzm1g7Bpyf9ndnnqMm4E0433aaRLW5A"}
+[2026-03-12 07:07:56] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295672_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 07:07:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:07:56] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295672_Test.pdf","filename":"Test.pdf","is_reusable":true}}}}
+[2026-03-12 07:07:56] Meta API response code: 400, Response: {"error":{"message":"(#100) Invalid keys \"filename\" were found in param \"name_placeholder\".","type":"OAuthException","code":100,"fbtrace_id":"AeDL7RoGDJUYiepYoGUe3jT"}}
+[2026-03-12 07:08:07] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:08:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:08] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:08:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:09] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:08:09] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:28] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295703_yes.jpg","fileType":"image\/jpeg","fileName":"yes.jpg"}
+[2026-03-12 07:08:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:28] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"image","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773295703_yes.jpg","filename":"yes.jpg","is_reusable":true}}}}
+[2026-03-12 07:08:29] Meta API response code: 400, Response: {"error":{"message":"(#100) Invalid keys \"filename\" were found in param \"name_placeholder\".","type":"OAuthException","code":100,"fbtrace_id":"Az_N3d_yg-3SyRVoD0LVuqI"}}
+[2026-03-12 07:08:50] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:08:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:51] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:08:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:08:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:08:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:14:28] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:14:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:14:29] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:14:29] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:14:29] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:14:29] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:32:50] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:32:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:32:51] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:32:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:32:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:32:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:33:14] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test"}
+[2026-03-12 07:33:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:33:14] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test"}}
+[2026-03-12 07:33:15] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m__RUojKqYhupdPc7EX7EGODsGp8cKQZhEjBtbfVqIiTbTs8eEz1acxQOR9tWmbFm1aYNshUsdDKsdlWRqu9sxSQ"}
+[2026-03-12 07:33:46] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773297206_Test.pdf","fileType":"application\/pdf","fileName":"Test.pdf"}
+[2026-03-12 07:33:46] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:33:46] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"file","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773297206_Test.pdf","is_reusable":true}}}}
+[2026-03-12 07:33:48] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_FcPwwMIS5MxOFF19K7QuKTsGp8cKQZhEjBtbfVqIiTZkKpknJqxxzJvEqV0aMPGRYZrnWfRSRJEzzbXkLzYYyA","attachment_id":"1632468364424884"}
+[2026-03-12 07:34:28] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:34:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:34:29] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:34:29] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:34:30] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:34:30] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:35:19] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","fileUrl":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773297309_yes.jpg","fileType":"image\/jpeg","fileName":"yes.jpg"}
+[2026-03-12 07:35:19] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:35:19] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"attachment":{"type":"image","payload":{"url":"https:\/\/storage.googleapis.com\/n8nyesaibucket\/chat_files\/FB_33749687704679757\/2026\/03\/12\/1773297309_yes.jpg","is_reusable":true}}}}
+[2026-03-12 07:35:20] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_S1ja9S9xZD-xDdIK7c_YwDsGp8cKQZhEjBtbfVqIiTbh-nYFoI2s5R-mJJUGcfE3gsP5oUYnNbycrrw-gxJewg","attachment_id":"791014103569015"}
+[2026-03-12 07:37:14] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:37:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:37:17] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:37:17] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:37:18] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:37:18] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:38:02] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 07:38:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:38:04] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 07:38:04] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 07:38:05] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 07:38:05] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+<<<<<<< Updated upstream
+[2026-03-12 09:00:42] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 09:00:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 09:00:43] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 09:00:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 09:00:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 09:00:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 09:15:22] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 09:15:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 09:15:23] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 09:15:23] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 09:15:25] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 09:15:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+<<<<<<< Updated upstream
+=======
+[2026-03-13 06:43:12] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 06:43:12] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:43:13] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 06:43:13] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:43:13] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 06:43:13] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:43:13] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 06:43:13] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:43:14] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 06:43:14] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:43:14] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 06:43:14] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 06:52:52] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:53] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 06:52:53] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 06:52:53] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 06:52:53] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:53] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 06:52:53] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+[2026-03-13 06:52:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 06:52:53] Tokens Loaded - FB: MISSING, IG: MISSING, IG_USER: MISSING
+>>>>>>> Stashed changes
+=======
+[2026-03-12 10:26:52] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 10:26:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:26:53] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 10:26:53] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:26:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 10:26:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:27:07] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test manual webook"}
+[2026-03-12 10:27:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:27:07] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test manual webook"}}
+[2026-03-12 10:27:08] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_xHUNu1CT2MgLhWbFAL3s6TsGp8cKQZhEjBtbfVqIiTbReYImAV8SNL9UQXnK6dHgfEfqGWic4YpgLaALpWlwpQ"}
+[2026-03-12 10:28:07] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 10:28:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:28:08] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 10:28:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:28:09] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 10:28:09] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:28:22] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"Test manual webhook"}
+[2026-03-12 10:28:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:28:22] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 10:33:14] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 10:33:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:33:14] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 10:33:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:33:17] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 10:33:17] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:34:16] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 10:34:16] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:34:16] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 10:34:16] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 10:34:18] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 10:34:18] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:07:45] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"Test Manual Webhook IG"}
+[2026-03-12 11:07:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:07:45] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 11:08:13] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test Manual Webhook FB"}
+[2026-03-12 11:08:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:08:13] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test Manual Webhook FB"}}
+[2026-03-12 11:08:15] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_TjxCkF5BYiPz4TPTNYTLMDsGp8cKQZhEjBtbfVqIiTbyNSyRHw1_5Oi1xaDdphgTyv6Ek6WZRYmCmoR3zwSivg"}
+[2026-03-12 11:10:27] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:10:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:10:28] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:10:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:10:30] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:10:30] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:10:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:10:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:10:57] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:10:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:10:59] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:10:59] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:11:24] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:11:24] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:11:24] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:11:24] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:11:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:11:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:11:57] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test Manual Webhook FB"}
+[2026-03-12 11:11:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:11:57] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test Manual Webhook FB"}}
+[2026-03-12 11:11:58] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_-VvN_VjQsFY-fszvdXfN-zsGp8cKQZhEjBtbfVqIiTauF3hjCOoddVmWjckVi-x0NfKTRyTbpuo7Z1GaEoDkyA"}
+[2026-03-12 11:19:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:19:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:19:52] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:19:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:19:54] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:19:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:20:27] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:20:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:20:27] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:20:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:20:29] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:20:29] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:20:55] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test Manual FB Webhook1"}
+[2026-03-12 11:20:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:20:55] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test Manual FB Webhook1"}}
+[2026-03-12 11:20:55] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_iOG07QfzNMoJZ0sxwvSMRTsGp8cKQZhEjBtbfVqIiTYxUETx4XpxtPlS0QkSRXNkbcwPiArYfG3SKISmZ4Pixg"}
+[2026-03-12 11:21:14] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"Test Manual IG Webhook1"}
+[2026-03-12 11:21:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:21:14] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 11:23:03] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:23:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:23:04] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:23:04] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:23:06] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:23:06] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:27:16] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:27:16] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:27:17] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:27:17] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:27:17] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:27:17] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:31:54] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:31:54] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:31:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:31:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:31:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:31:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:32:37] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:32:37] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:32:37] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:32:37] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:32:39] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:32:39] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:18] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:33:18] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:18] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:33:18] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:20] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:33:20] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:43] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:33:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:43] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:33:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:33:45] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:33:45] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:34:22] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:34:22] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:34:23] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:34:23] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:34:25] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:34:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:34:40] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test Manual FB Webhook1"}
+[2026-03-12 11:34:40] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:34:40] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test Manual FB Webhook1"}}
+[2026-03-12 11:34:40] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_HhVM9S3U8bWrGAkoj2UgITsGp8cKQZhEjBtbfVqIiTaNnUy1wtfb_WkFSKTKyK3vFWPR6loLAmPyLbKeUz5ALg"}
+[2026-03-12 11:42:27] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 11:42:27] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:42:28] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 11:42:28] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:42:30] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 11:42:30] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:42:55] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test FB Webhook 1"}
+[2026-03-12 11:42:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:42:55] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test FB Webhook 1"}}
+[2026-03-12 11:42:55] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_oZgp0UUEmPz6Mug3NXgeejsGp8cKQZhEjBtbfVqIiTaXeIzGP2jhNlQPYCTTjhcHiBiOif2vwhq8dIQNUxMpJA"}
+[2026-03-12 11:44:13] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"Test Manual FB Webhook 1"}
+[2026-03-12 11:44:13] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 11:44:13] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"Test Manual FB Webhook 1"}}
+[2026-03-12 11:44:13] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_uwY_tcB96h_P2RLuhaa8mzsGp8cKQZhEjBtbfVqIiTb8BNEQJ_w92IrA1cXsuTpUOe5YdnCMkbC4lEEZkihKzA"}
+[2026-03-12 12:17:26] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"instagram","recipient_id":"1769614031091655","message":"Test Manual IG Webhook 1"}
+[2026-03-12 12:17:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:17:26] ERROR: Instagram send failed - IG_USER_ID missing
+[2026-03-12 12:22:56] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 12:22:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:22:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 12:22:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:22:58] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 12:22:58] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:24:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-12 12:24:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:24:01] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-12 12:24:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-12 12:24:02] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-12 12:24:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:12:05] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:12:05] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:12:06] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:12:06] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:12:07] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:12:07] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:34:34] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:34:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:34:36] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:34:36] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:34:37] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:34:37] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:35:40] Request: POST /meta-proxy.php | POST: {"action":"send","channel":"facebook","recipient_id":"33749687704679757","message":"test"}
+[2026-03-13 05:35:40] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:35:40] Meta API send to facebook, Recipient: 33749687704679757, Endpoint: https://graph.facebook.com/v20.0/me/messages?access_token=EAAROAV56L1gBQylb66ausDInUtkS7cJgiMgcdkAoQO66VNBPj1ypscpBs7mqwlRTuJYSZCcQq8xVNXpRIXz2GJH77aepWz1fbq7aZAGZBQspndwU438xrnC7fxSb1ejZBQ0qxcRnULZCScjkRtzp8iEl0GzNL6ZBZAZB4PuHA6ZCwIC1KO6BWrx5lpbFyEvcpRlnZBMwFDxMbnc1ZAvqnMUcZAktdFKy, Payload: {"messaging_type":"RESPONSE","recipient":{"id":"33749687704679757"},"message":{"text":"test"}}
+[2026-03-13 05:35:42] Meta API response code: 200, Response: {"recipient_id":"33749687704679757","message_id":"m_5z8dT4ozr1xtposqUHZc_TsGp8cKQZhEjBtbfVqIiTYxfbp8B8eu-pYNSeUiiEnGjRvtknmJC1b6out9oLnqgg"}
+[2026-03-13 05:38:55] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:38:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:38:56] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:38:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:38:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:38:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:41:42] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:41:42] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:41:43] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:41:43] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:41:44] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:41:44] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:42:12] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:42:12] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:42:14] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:42:14] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:42:15] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:42:15] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:32] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:43:32] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:34] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:43:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:35] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:43:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:49] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:43:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:51] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:43:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:43:51] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:43:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:50:02] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:50:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:50:03] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:50:03] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:50:04] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:50:04] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:51:33] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:51:33] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:51:34] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:51:34] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:51:35] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:51:35] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:55:55] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 05:55:55] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:55:57] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 05:55:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 05:55:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 05:55:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:02:58] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:02:58] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:03:00] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:03:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:03:02] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:03:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:13:50] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:13:50] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:13:51] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:13:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:13:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:13:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:39:49] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:39:49] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:39:51] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:39:51] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:39:52] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:39:52] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:44:20] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:44:20] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:44:25] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:44:25] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:44:26] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:44:26] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:49:05] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:49:05] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:49:08] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:49:08] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:49:09] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:49:09] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:53:39] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 07:53:39] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:53:40] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 07:53:40] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 07:53:41] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 07:53:41] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:00] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 08:30:00] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:01] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 08:30:01] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:02] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 08:30:02] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:56] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=33749687704679757 | POST: []
+[2026-03-13 08:30:56] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:57] Request: GET /meta-proxy.php?action=profile&channel=instagram&userId=1769614031091655 | POST: []
+[2026-03-13 08:30:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+[2026-03-13 08:30:57] Request: GET /meta-proxy.php?action=profile&channel=facebook&userId=8207393340 | POST: []
+[2026-03-13 08:30:57] Tokens Loaded - FB: EAAROAV56L..., IG: EAAROAV56L..., IG_USER: MISSING
+>>>>>>> Stashed changes

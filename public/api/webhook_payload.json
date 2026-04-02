@@ -1,0 +1,32 @@
+{
+    "lineUuids": [
+        "U47774188c5fa568017c420ab06e3761b",
+        "Ufe2928d2e55bfbefe57c120e40ecb80d",
+        "Uc1db8fd084dac4897da1605077eaeed8"
+    ],
+    "changes": [
+        {
+            "lineUuid": "U47774188c5fa568017c420ab06e3761b",
+            "originalValue": "manual chat",
+            "lastModified": "2025-04-09T02:56:44.427Z",
+            "diffMinutes": 20611,
+            "row": 2
+        },
+        {
+            "lineUuid": "Ufe2928d2e55bfbefe57c120e40ecb80d",
+            "originalValue": "manual chat",
+            "lastModified": "2025-04-03T04:35:59.363Z",
+            "diffMinutes": 29151,
+            "row": 3
+        },
+        {
+            "lineUuid": "Uc1db8fd084dac4897da1605077eaeed8",
+            "originalValue": "manual chat",
+            "lastModified": "2025-04-22T16:01:57.685Z",
+            "diffMinutes": 1105,
+            "row": 4
+        }
+    ],
+    "timestamp": "2025-04-23T17:27:56+07:00",
+    "sheet_id": ""
+}

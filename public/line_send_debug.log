@@ -1,0 +1,271 @@
+[2025-10-31 09:12:44] LINE API: test123 -> 'Direct PHP test message' | HTTP 400
+[2025-10-31 09:14:10] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Test message' | HTTP 200
+[2025-10-31 09:23:05] LINE API: Ufc7917503ff98b9eb7e1d72cfbc88daf -> 'yo' | HTTP 200
+[2025-10-31 09:27:10] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'yp' | HTTP 200
+[2025-10-31 09:37:04] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-10-31 10:07:50] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-03 07:46:41] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-03 07:48:40] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hi' | HTTP 200
+[2025-11-03 08:28:39] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-04 08:21:11] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'yes' | HTTP 200
+[2025-11-04 09:57:58] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hi' | HTTP 200
+[2025-11-04 09:58:12] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'are you ok>?' | HTTP 200
+[2025-11-04 10:01:21] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Would you like to schedule a video call to discuss this in more detail?' | HTTP 200
+[2025-11-04 11:01:38] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-04 11:19:10] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'good' | HTTP 200
+[2025-11-04 11:20:03] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'h' | HTTP 200
+[2025-11-05 03:32:12] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-05 03:52:06] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'yes' | HTTP 200
+[2025-11-05 03:53:30] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello nice to meet you' | HTTP 200
+[2025-11-05 03:54:01] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'jj' | HTTP 200
+[2025-11-05 04:29:06] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.' | HTTP 200
+[2025-11-05 04:45:18] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'I'll look into that issue and get back to you shortly.' | HTTP 200
+[2025-11-05 04:47:42] LINE API: Ufc7917503ff98b9eb7e1d72cfbc88daf -> 'hi' | HTTP 200
+[2025-11-05 04:59:45] LINE API: Ufc7917503ff98b9eb7e1d72cfbc88daf -> 'yes' | HTTP 200
+[2025-11-05 07:22:57] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'abcsd' | HTTP 200
+[2025-11-05 07:23:27] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'I'll look into that issue and get back to you shortly.' | HTTP 200
+[2025-11-05 08:14:03] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'yse' | HTTP 200
+[2025-11-05 10:59:58] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-05 11:00:40] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'right' | HTTP 200
+[2025-11-05 11:08:03] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'y' | HTTP 200
+[2025-11-05 11:09:46] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> '🎉🎉🎉🎉😘😘😘🥰' | HTTP 200
+[2025-11-05 11:11:22] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-06 11:41:42] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'yo' | HTTP 200
+[2025-11-07 03:22:14] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ok' | HTTP 200
+[2025-11-07 03:51:35] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: Screenshot 2568-10-27 at 1.30.11 PM.png' | HTTP 200
+[2025-11-07 03:51:55] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: EPS-Computer-Science.pdf' | HTTP 200
+[2025-11-07 03:52:05] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-07 04:11:41] LINE API: U6d6325dd1b2e8361ba410961f07de923 -> '...' | HTTP 200
+[2025-11-07 04:19:08] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-07 04:33:31] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello test' | HTTP 200
+[2025-11-07 04:45:08] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-07 04:56:43] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hi' | HTTP 200
+[2025-11-07 04:57:44] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 's' | HTTP 200
+[2025-11-07 06:03:10] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-07 06:03:51] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'ryd' | HTTP 200
+[2025-11-07 06:30:15] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: functionalsample.pdf' | HTTP 200
+[2025-11-07 07:05:26] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hi' | HTTP 200
+[2025-11-07 07:05:33] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: functionalsample.pdf' | HTTP 200
+[2025-11-07 07:10:16] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-07 07:21:44] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'tes' | HTTP 200
+[2025-11-07 07:29:05] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: MPP-PhD-STEM-CV.pdf' | HTTP 200
+[2025-11-07 07:34:45] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: MPP-PhD-STEM-CV.pdf' | HTTP 200
+[2025-11-07 07:37:39] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: functionalsample.pdf' | HTTP 200
+[2025-11-07 07:37:56] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-07 08:20:59] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'heloo' | HTTP 200
+[2025-11-07 08:21:35] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: Office-Manager.pdf' | HTTP 200
+[2025-11-07 08:53:22] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hi' | HTTP 200
+[2025-11-07 08:53:49] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-07 10:00:59] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello 1' | HTTP 200
+[2025-11-07 10:10:41] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hhello' | HTTP 200
+[2025-11-07 10:34:01] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'incoming message new' | HTTP 200
+[2025-11-07 10:49:55] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-07 10:53:33] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> '✅' | HTTP 200
+[2025-11-07 11:10:13] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-07 11:11:14] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-07 11:23:16] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'tes' | HTTP 200
+[2025-11-07 11:25:28] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'lol' | HTTP 200
+[2025-11-10 04:18:37] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.' | HTTP 200
+[2025-11-10 04:25:57] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: Office-Manager.pdf' | HTTP 200
+[2025-11-10 04:34:48] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: Event-Coordinator.pdf' | HTTP 200
+[2025-11-10 04:40:25] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: Project-Manager-Job.pdf' | HTTP 200
+[2025-11-10 04:40:52] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-10 04:41:02] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'I appreciate your message. Let me gather the information you need and I'll provide a comprehensive response shortly.' | HTTP 200
+[2025-11-10 04:47:47] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: EPS-Computer-Science.pdf' | HTTP 200
+[2025-11-10 04:48:43] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: MPP-PhD-STEM-CV.pdf' | HTTP 200
+[2025-11-10 04:54:03] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: functionalsample.pdf' | HTTP 200
+[2025-11-10 05:00:06] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-10 05:02:19] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-10 05:50:28] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-10 05:51:24] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs.' | HTTP 200
+[2025-11-10 05:51:55] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'File: candidate-man.jpg' | HTTP 200
+[2025-11-10 05:57:47] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'ye' | HTTP 200
+[2025-11-10 05:59:10] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'test' | HTTP 200
+[2025-11-10 05:59:49] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'test' | HTTP 200
+[2025-11-10 06:00:59] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'etst' | HTTP 200
+[2025-11-10 06:12:41] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'from bnackoffice' | HTTP 200
+[2025-11-10 06:14:55] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'test backoffice' | HTTP 200
+[2025-11-10 06:18:21] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'test backoffice 2' | HTTP 200
+[2025-11-10 06:21:47] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'Would you like to schedule a video call to discuss this in more detail?' | HTTP 200
+[2025-11-10 06:25:45] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'test' | HTTP 200
+[2025-11-10 06:28:04] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'Thank you for sharing these details. Would it be helpful if I scheduled a quick call to discuss this further?' | HTTP 200
+[2025-11-10 06:29:38] LINE API: Ucd445de304e12f570bce6b51399660d7 -> 'I understand what you're looking for. Let me check with our team and provide you with the best solution for your needs.' | HTTP 200
+[2025-11-11 04:55:41] LINE API: U88b6298995f171d50d9326be18c4849f -> 'File: functionalsample.pdf' | HTTP 200
+[2025-11-11 05:05:10] LINE API: U88b6298995f171d50d9326be18c4849f -> 'Hi Steven' | HTTP 200
+[2025-11-11 06:44:52] LINE API: U88b6298995f171d50d9326be18c4849f -> 'Hi' | HTTP 200
+[2025-11-11 06:45:14] LINE API: U88b6298995f171d50d9326be18c4849f -> 'File: Screenshot_62.png' | HTTP 200
+[2025-11-11 07:01:26] LINE API: U88b6298995f171d50d9326be18c4849f -> 'Thank you for reaching out. I'll look into this right away and get back to you as soon as possible.' | HTTP 200
+[2025-11-11 07:01:36] LINE API: U88b6298995f171d50d9326be18c4849f -> 'ฟหกฟหก' | HTTP 200
+[2025-11-12 08:45:25] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-12 10:06:49] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Hello' | HTTP 200
+[2025-11-12 10:18:14] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-12 10:33:37] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read' | HTTP 200
+[2025-11-12 10:47:00] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-12 10:48:03] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-12 11:19:39] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Hello from backoffice' | HTTP 200
+[2025-11-12 11:22:33] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 03:35:19] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-13 04:08:50] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-13 04:13:26] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 06:23:45] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 06:29:59] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'tes' | HTTP 200
+[2025-11-13 06:43:42] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read' | HTTP 200
+[2025-11-13 07:20:02] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 07:23:22] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read' | HTTP 200
+[2025-11-13 07:23:54] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read' | HTTP 200
+[2025-11-13 07:26:42] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read2' | HTTP 200
+[2025-11-13 07:26:55] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read 2' | HTTP 200
+[2025-11-13 07:38:31] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'read 3' | HTTP 200
+[2025-11-13 07:45:34] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 08:15:29] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test new' | HTTP 200
+[2025-11-13 08:31:20] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test read' | HTTP 200
+[2025-11-13 08:40:52] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'tset hello' | HTTP 200
+[2025-11-13 09:05:31] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'testset' | HTTP 200
+[2025-11-13 09:05:40] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-13 09:08:22] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'rwawr' | HTTP 200
+[2025-11-13 10:19:39] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test from frontend' | HTTP 200
+[2025-11-13 10:30:08] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-13 11:30:44] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'est' | HTTP 200
+[2025-11-13 11:31:06] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-14 03:59:38] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello' | HTTP 200
+[2025-11-17 04:48:45] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'hello from backoffice' | HTTP 200
+[2025-11-17 06:24:10] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Let me check our inventory and pricing options for you.' | HTTP 200
+[2025-11-17 08:37:36] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'tere' | HTTP 200
+[2025-11-18 08:12:02] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-18 08:15:30] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'I've attached the document you requested. Please let me know if you need anything else.' | HTTP 200
+[2025-11-18 08:16:56] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'Would you like to schedule a video call to discuss this in more detail?' | HTTP 200
+[2025-11-21 10:28:47] LINE API: U2f9e1ee0df5c63084949e677b18bd07d -> 'test' | HTTP 200
+[2025-11-27 11:30:56] LINE API: U88b6298995f171d50d9326be18c4849f -> 'Test' | HTTP 200
+[2025-11-28 07:14:27] LINE API: Udf05951c2b45ebcd85ead33ad9c65a12 -> 'hi how are you' | HTTP 200
+[2025-11-28 07:14:49] LINE API: Udf05951c2b45ebcd85ead33ad9c65a12 -> 'File: Screenshot_62.png' | HTTP 200
+[2025-11-28 07:15:30] LINE API: Udf05951c2b45ebcd85ead33ad9c65a12 -> 'File: ChatGPT Image Aug 19, 2025, 05_57_25 PM.png' | HTTP 200
+[2025-11-28 07:15:42] LINE API: Udf05951c2b45ebcd85ead33ad9c65a12 -> 'asdfasdfasdf' | HTTP 200
+[2026-02-09 07:51:46] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 400
+[2026-02-11 10:58:26] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีค่ะ' | HTTP 400
+[2026-02-11 11:05:15] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดี' | HTTP 400
+[2026-02-11 11:06:45] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีค่ะ' | HTTP 400
+[2026-02-11 11:11:33] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีครับ' | HTTP 400
+[2026-02-11 11:16:20] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีค่ะ' | HTTP 200
+[2026-02-11 11:18:15] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีจ้า' | HTTP 200
+[2026-02-11 11:19:38] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-02-11 11:20:20] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Chatbot.docx' | HTTP 200
+[2026-02-11 11:23:59] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'เวิร์คนะ' | HTTP 200
+[2026-02-11 11:24:49] LINE API: Uab631741bd5400c1278071b4d477db2f -> 'สวัสดีครับผม' | HTTP 200
+[2026-02-19 05:50:01] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 06:02:22] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 06:05:00] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 06:05:36] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 07:29:05] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 08:10:51] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 08:30:53] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 09:24:05] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 09:27:18] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: Cammands.docx' | HTTP 200
+[2026-02-19 09:28:48] LINE API: U0affbeb4f61628c6a8de572c446e67c7 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 09:45:54] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test' | HTTP 200
+[2026-02-19 09:46:15] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 09:47:15] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test' | HTTP 200
+[2026-02-19 09:48:54] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test1' | HTTP 200
+[2026-02-19 10:31:27] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test' | HTTP 200
+[2026-02-19 10:35:02] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-19 10:38:51] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'สวัสดี' | HTTP 200
+[2026-02-19 11:44:56] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test test' | HTTP 200
+[2026-02-19 11:45:55] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'File: yes.jpg' | HTTP 200
+[2026-02-23 09:23:22] LINE API: U5004e2feffa724902a79d028e1fad965 -> 'test' | HTTP 200
+[2026-02-27 05:08:06] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีครับ' | HTTP 200
+[2026-03-02 09:52:53] LINE API: Ued3b57a3736fdfa3d98f575843d1b00c -> 'ไม่บอก' | HTTP 200
+[2026-03-04 08:12:53] LINE API: Ued3b57a3736fdfa3d98f575843d1b00c -> 'Schedule มีปัญหาจัดเลยครับ มาช่วยที' | HTTP 200
+<<<<<<< Updated upstream
+[2026-03-06 06:25:20] LINE API: Ued3b57a3736fdfa3d98f575843d1b00c -> 'เห้ย ใช้งานได้ละว้าา' | HTTP 200
+[2026-03-06 06:27:02] LINE API: Ued3b57a3736fdfa3d98f575843d1b00c -> 'เห้ย มันบัค🫠' | HTTP 200
+[2026-03-06 06:38:06] LINE API: U06cf045da8f7bedf0518e78fc1e6358a -> 'โหล' | HTTP 200
+=======
+[2026-03-05 09:44:02] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'Test Backoffice' | HTTP 200
+[2026-03-06 07:59:42] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-06 07:59:42] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 08:00:05] LINE API: 33749687704679756 -> 'test multi' | HTTP 400
+[2026-03-06 08:00:05] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 08:02:23] LINE API: 33749687704679756 -> 'test multi 2' | HTTP 400
+[2026-03-06 08:02:23] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 08:03:50] LINE API: 33749687704679756 -> 'test multi 2' | HTTP 400
+[2026-03-06 08:03:50] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 08:44:30] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-06 08:44:30] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 08:48:54] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-06 08:48:54] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 09:14:47] LINE API: 33749687704679756 -> 'test multi' | HTTP 400
+[2026-03-06 09:14:47] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 09:16:15] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-06 09:16:15] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-06 10:34:52] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สอบถามได้ครับ' | HTTP 200
+[2026-03-06 10:37:39] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สอบถามราคาหรือบริการครับ' | HTTP 200
+[2026-03-06 10:40:38] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีครับ' | HTTP 200
+[2026-03-06 10:40:58] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สอบถามอะไรดีครับ' | HTTP 200
+[2026-03-06 10:41:47] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีครับ' | HTTP 200
+[2026-03-06 10:42:04] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สอบถามเรื่องบริการหรือราคาครับ' | HTTP 200
+[2026-03-06 10:42:31] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'บริการไหนดีครับ' | HTTP 200
+[2026-03-06 10:44:58] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดีครับ' | HTTP 200
+[2026-03-06 10:45:18] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สอบถามบริการหรือราคาอะไรดีครับ' | HTTP 200
+[2026-03-06 10:45:38] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สนใจเช่าอะไรดีครับ' | HTTP 200
+[2026-03-06 10:45:54] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'ได้ครับ' | HTTP 200
+[2026-03-06 12:19:27] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-06 12:19:27] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-09 03:53:38] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test multi' | HTTP 200
+[2026-03-09 04:41:45] LINE API: 1769614031091655 -> 'test multi1' | HTTP 400
+[2026-03-09 04:41:45] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-09 04:44:47] LINE API: 1769614031091655 -> 'test multi' | HTTP 400
+[2026-03-09 04:44:47] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-09 04:45:55] LINE API: 1769614031091655 -> 'test multi2' | HTTP 400
+[2026-03-09 04:45:55] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-09 04:47:38] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test multi2' | HTTP 200
+[2026-03-09 05:31:07] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice' | HTTP 200
+[2026-03-09 07:08:40] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice2' | HTTP 200
+[2026-03-09 07:09:07] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+>>>>>>> Stashed changes
+[2026-03-10 07:25:27] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-10 07:26:48] LINE API: 1769614031091655 -> 'File: yes.jpg' | HTTP 400
+[2026-03-10 07:26:48] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-10 10:14:09] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice2' | HTTP 200
+[2026-03-10 10:21:18] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice' | HTTP 200
+[2026-03-10 10:23:01] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-10 10:24:56] LINE API: 33749687704679757 -> 'File: yes.jpg' | HTTP 400
+[2026-03-10 10:24:56] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-10 10:25:10] LINE API: 1769614031091655 -> 'File: yes.jpg' | HTTP 400
+[2026-03-10 10:25:10] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-10 10:32:14] LINE API: 1769614031091655 -> 'File: Cammands.docx' | HTTP 400
+[2026-03-10 10:32:14] LINE response body: {"message":"The property, 'to', in the request body is invalid (line: -, column: -)"}
+[2026-03-10 10:33:40] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Cammands.docx' | HTTP 200
+[2026-03-10 12:18:28] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice5' | HTTP 200
+[2026-03-10 12:19:33] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test backoffice5' | HTTP 200
+[2026-03-10 12:22:02] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-11 04:08:03] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test back office 1' | HTTP 200
+[2026-03-11 05:02:02] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test back 1' | HTTP 200
+[2026-03-11 05:18:32] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test back1' | HTTP 200
+[2026-03-11 07:08:13] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-11 07:11:33] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-11 07:34:45] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-11 07:36:34] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-11 07:43:14] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'สวัสดี' | HTTP 200
+[2026-03-11 08:03:55] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test chat from back office1' | HTTP 200
+[2026-03-12 05:23:12] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test back' | HTTP 200
+[2026-03-12 05:23:53] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 05:24:01] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-12 05:35:39] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test back' | HTTP 200
+[2026-03-12 05:35:52] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 05:36:06] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-12 05:49:01] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 05:51:15] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 06:13:50] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 07:03:00] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Cammands.docx' | HTTP 200
+[2026-03-12 07:36:12] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: Test.pdf' | HTTP 200
+[2026-03-12 07:37:52] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200
+[2026-03-12 09:01:15] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook' | HTTP 200
+[2026-03-12 09:06:58] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook2' | HTTP 200
+[2026-03-12 09:07:49] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook3' | HTTP 200
+[2026-03-12 09:11:53] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook4' | HTTP 200
+[2026-03-12 09:14:49] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook5' | HTTP 200
+[2026-03-12 09:15:39] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook6' | HTTP 200
+[2026-03-12 09:21:28] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'test webhook7' | HTTP 200
+[2026-03-12 10:31:23] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'Test manual webhook' | HTTP 200
+[2026-03-12 11:27:04] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'Test Manual Line Webhook1' | HTTP 200
+[2026-03-12 12:20:41] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'Test Manual Line Webhook 1' | HTTP 200
+[2026-03-12 12:24:22] LINE API: Uc458867841db49462019b0eb5e4e6752 -> 'File: yes.jpg' | HTTP 200

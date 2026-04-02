@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics Integration Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Analytics Integration Test</h1>
+    <div id="status">Loading...</div>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px;">
+        <div>
+            <h3>Chat Performance</h3>
+            <canvas id="customerChatsChart"></canvas>
+        </div>
+        <div>
+            <h3>Message Volume</h3>
+            <canvas id="messageReceivedChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Test API connectivity
+        async function testAnalyticsAPI() {
+            const statusDiv = document.getElementById('status');
+            
+            try {
+                const response = await fetch('/api/analytics?tab=chat&date_range=last_7_days');
+                const data = await response.json();
+                
+                if (data.success) {
+                    statusDiv.innerHTML = '✅ API Connected Successfully! Real data loaded.';
+                    statusDiv.style.color = 'green';
+                    
+                    // Create sample charts with real data
+                    createTestCharts(data.chartData);
+                } else {
+                    statusDiv.innerHTML = '❌ API Error: ' + data.message;
+                    statusDiv.style.color = 'red';
+                }
+            } catch (error) {
+                statusDiv.innerHTML = '❌ Connection Error: ' + error.message;
+                statusDiv.style.color = 'red';
+            }
+        }
+
+        function createTestCharts(chartData) {
+            const colors = {
+                primary: '#4e73df',
+                success: '#1cc88a',
+                info: '#36b9cc',
+                warning: '#f6c23e',
+                danger: '#e74a3b'
+            };
+
+            // Customer Chats Chart
+            const ctx1 = document.getElementById('customerChatsChart').getContext('2d');
+            new Chart(ctx1, {
+                type: 'line',
+                data: {
+                    labels: chartData.dates,
+                    datasets: [{
+                        label: 'Customer Chats',
+                        data: chartData.total_chats,
+                        borderColor: colors.primary,
+                        backgroundColor: colors.primary,
+                        tension: 0.4,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+
+            // Messages Received Chart
+            const ctx2 = document.getElementById('messageReceivedChart').getContext('2d');
+            new Chart(ctx2, {
+                type: 'line',
+                data: {
+                    labels: chartData.dates,
+                    datasets: [{
+                        label: 'Messages Received',
+                        data: chartData.messages_received,
+                        borderColor: colors.success,
+                        backgroundColor: colors.success,
+                        tension: 0.4,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+        }
+
+        // Run test when page loads
+        document.addEventListener('DOMContentLoaded', testAnalyticsAPI);
+    </script>
+</body>
+</html>

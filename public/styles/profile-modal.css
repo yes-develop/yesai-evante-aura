@@ -1,0 +1,158 @@
+/* Specific styles for the profile modal */
+
+/* Profile modal container */
+#profile-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+#profile-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#profile-modal .modal-content {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: translateY(20px) scale(0.95);
+    transition: all 0.3s ease;
+}
+
+#profile-modal.active .modal-content {
+    transform: translateY(0) scale(1);
+}
+
+/* Profile content layout */
+.profile-header {
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    height: auto;
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-avatar-edit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1890ff;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.profile-avatar-edit:hover {
+    background-color: #0c7cd5;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin: 0 0 5px;
+}
+
+.profile-status {
+    font-size: 14px;
+    color: #52c41a;
+    margin: 0;
+}
+
+.profile-info {
+    padding: 15px 20px;
+    border-top: 1px solid #e1e4e8;
+}
+
+.profile-info-item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.profile-info-icon {
+    width: 25px;
+    color: #888;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.profile-info-text {
+    flex: 1;
+}
+
+.profile-info-label {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 2px;
+}
+
+.profile-info-value {
+    font-size: 14px;
+    color: #333;
+}
+
+.profile-actions {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e1e4e8;
+}
+
+.profile-action-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1890ff;
+    transition: color 0.2s ease;
+}
+
+.profile-action-btn:hover {
+    color: #0c7cd5;
+}
+
+.profile-action-icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-action-text {
+    font-size: 12px;
+}

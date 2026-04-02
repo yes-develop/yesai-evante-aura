@@ -1,0 +1,855 @@
+/* Conversations styling improvements */
+.empty-filter-results {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Assigned team member indicator in conversation list */
+.assigned-to-indicator {
+    font-size: 12px;
+    color: #65676b;
+    font-weight: 500;
+    margin-left: 8px;
+    opacity: 0.8;
+}
+
+/* Assign to display section (read-only) */
+.assign-to-display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.assign-to-display :hover{
+    cursor: pointer;
+    background-color: #dadde0;
+    border-radius: 12px;
+}
+
+.assign-to-label {
+    color: #65676b;
+    font-weight: 500;
+}
+
+.assigned-user-display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    background-color: #f0f2f5;
+    border-radius: 12px;
+}
+
+.assigned-user-display img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.assigned-user-display span {
+    color: #1c1e21;
+    font-weight: 500;
+}
+
+.assigned-user-display .role-label {
+    color: #65676b;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.not-assigned-display {
+    color: #8a8d91;
+    font-style: italic;
+    padding: 4px 8px;
+    border-radius: 3rem !important;
+    border: none !important;
+    /* padding: 4px 8px; */
+    background-color: #f0f0f0;
+}
+
+.conversations-header {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.conversations-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #1d2129;
+    display: flex;
+    align-items: center;
+}
+
+.conversations-header h2 i {
+    margin-right: 8px;
+    color: #F7FF00;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 32px 10px 12px;
+    border-radius: 80px;
+    border: 2px solid transparent;
+    background-color: rgba(154, 154, 154, 0.1);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.search-box input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    background-color: #fff;
+}
+
+.search-box i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #65676b;
+}
+
+.conversations-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-y: auto;
+    flex: 1;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.conversation-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-height: 120px;
+    justify-content: center;
+}
+
+.conversation-item:last-child {
+    border-bottom: none;
+}
+
+.conversation-item:hover {
+    background: linear-gradient(to right, #ebffbf, #ffffff);
+    transition: all 2.5s ease;
+}
+
+.conversation-item.active {
+    background-color: #ebffbf;
+    transition: all 2.5s ease;
+}
+
+.conversation-item-content{
+    display: flex;
+    align-items: start;
+    width: 100%;    
+}
+
+.conversation-avatar {
+    position: relative;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.conversation-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f5f5f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.conversation-item:hover .conversation-avatar img {
+    border-color: #e6f7ff;
+}
+
+.conversation-item.active .conversation-avatar img {
+    border-color: #ffee36;
+}
+
+.online-status {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 12px;
+    height: 12px;
+    background-color: #34a853;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.conversation-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    margin-right: 8px;
+    gap: 6px;
+}
+
+.conversation-name {
+    font-weight: 600;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1d2129;
+}
+
+.conversation-last-message {
+    font-size: 14px;
+    color: #65676b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.conversation-time {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.conversation-meta {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 8px;
+    font-size: 12px;
+    position: relative;
+}
+
+.conversation-item .assign-to-display {
+    order: -1;
+    margin-right: auto;
+    position: relative;
+    transform: translateY(10px);
+}
+
+/* .chat-mode-toggle {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    min-width: 60px;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    margin: 0;
+    z-index: 100;
+    pointer-events: auto;
+    transform: translateY(17px);
+    margin: 5px 0 10px;
+    background: red;
+} */
+
+
+.conversation-time-tag{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+
+.time {
+    font-size: 12px;
+    color: #666;
+    text-align: end;
+
+    padding-top: 5px;
+}
+
+.empty-chat-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+.chat-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.empty-text {
+    font-size: 1.1rem;
+    max-width: 300px;
+}
+
+
+
+.new-conversation-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 8px rgba(24, 144, 255, 0.3);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.new-conversation-btn:hover {
+    background-color: #40a9ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+}
+
+.new-conversation-btn:focus {
+    outline: none;
+}
+
+/* Mobile styles */
+@media (max-width: 992px) {
+    .conversations-header h2{
+        padding-left: 3em;
+    }
+
+    .conversations-header {
+        padding: 5px 16px 16px 16px;
+    }
+}
+
+@media (max-width: 768px) {    
+    .conversation-avatar img {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .source-app-badge {
+        width: 18px;
+        height: 18px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 576px) {
+    .conversations-header h2 {
+        text-align: center;
+    }
+    
+    .filter-chips {
+        gap: 6px;
+        padding: 0 12px;
+    }
+
+    .filter-btn {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    
+    .conversation-item {
+        padding: 10px 12px;
+    }
+    
+    .conversation-avatar img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .conversation-name {
+        font-size: 14px;
+    }
+    
+    .conversation-last-message {
+        font-size: 12px;
+    }
+    
+    .new-conversation-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+        bottom: 16px;
+        right: 16px;
+    }
+}
+
+/* More Options Dropdown Styles */
+.more-options-container {
+    position: relative;
+}
+
+.more-options-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    overflow: hidden;
+    display: none;
+    margin-top: 8px;
+}
+
+.more-options-dropdown.show {
+    display: block;
+    animation: fadeIn 0.2s ease;
+}
+
+.more-options-item {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #1d2129;
+}
+
+.more-options-item:hover {
+    background-color: #f0f2f5;
+}
+
+.more-options-item i {
+    margin-right: 12px;
+    font-size: 16px;
+    color: #65676b;
+    width: 20px;
+    text-align: center;
+}
+
+.more-options-item.delete-option {
+    color: #dc3545;
+}
+
+.more-options-item.delete-option i {
+    color: #dc3545;
+}
+
+.more-options-item.delete-option:hover {
+    background-color: #fff5f5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add Label Modal Styles */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.modal-container.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.modal-container.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.close-modal:hover {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.modal-body {
+    padding: 24px;
+}
+
+.label-input-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.label-input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.label-input:focus {
+    border-color: #1890ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1);
+}
+
+.color-picker {
+    width: 60px;
+    height: 50px;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.label-preview {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.label-preview-text {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: #1890ff;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.existing-labels {
+    margin-top: 24px;
+}
+
+.existing-labels h4 {
+    margin: 0 0 16px 0;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.label-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.label-item {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    gap: 8px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.label-item:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.delete-label-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.delete-label-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.btn-secondary {
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    color: #666;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #f5f5f5;
+    border-color: #d9d9d9;
+}
+
+.btn-primary {
+    padding: 8px 16px;
+    border: none;
+    background-color: #1890ff;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #40a9ff;
+}
+
+.success-message {
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+    color: #52c41a;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.success-message::before {
+    content: '✓';
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .modal-content {
+        width: 95%;
+        margin: 0 10px;
+    }
+
+    .label-input-container {
+        flex-direction: column;
+    }
+
+    .color-picker {
+        width: 100%;
+    }
+
+    .modal-footer {
+        flex-direction: column;
+    }
+
+    .modal-footer button {
+        width: 100%;
+    }
+}
+
+/* เพิ่ม CSS สำหรับแสดงร้านการ Label ใน conversation item */
+.conversation-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.conversation-label {
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 20px;
+    color: white;
+    white-space: nowrap;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* แก้ไข conversation-item เพื่อรองรับ label */
+
+
+/* .conversation-item {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 16px;
+    border-bottom: 1px solid #f0f2f5;
+    cursor: pointer;
+    transition: all 0.2s;
+} */
+
+/* Assign To Styles */
+.assign-to {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.assign-to-label {
+    color: #666;
+    margin-right: 5px;
+}
+
+.assigned-member {
+    color: #1890ff;
+    font-weight: 500;
+}
+
+.not-assigned {
+    color: #999;
+    font-style: italic;
+}
+
+/* Label Styles */
+.conversation-labels {
+    display: flex;
+    align-items: center;
+}
+
+.label-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.filter-chips {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+    flex-wrap: wrap;
+    padding: 0 16px;
+}
+
+.filter-btn {
+    padding: 6px 16px;
+    border-radius: 80px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff), 
+                     linear-gradient(120deg, #7EC3E3 0%, #F7FF00 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    transition: all 0.2s;
+}
+
+.filter-btn.active {
+    background-image: linear-gradient(to right, #E2EA00, #F7FF01, #6EBBFF);
+    color: #414141;
+    font-weight: 500;
+}
+
+.filter-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 480px) {
+  
+}

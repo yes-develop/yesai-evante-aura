@@ -1,0 +1,18 @@
+/* iziToast custom style */
+.iziToast.custom-toast {
+  background-color: #d0f0ff  !important;
+  color: #666 !important;
+  box-shadow: none !important;
+}
+
+.iziToast.custom-toast .iziToast-title,
+.iziToast.custom-toast .iziToast-message {
+  color: #666 !important;
+}
+
+@media only screen and (min-width: 568px) {
+  .iziToast.custom-toast:after {
+    box-shadow: none !important;
+    content: none !important;
+  }
+}

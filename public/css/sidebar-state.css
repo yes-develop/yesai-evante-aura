@@ -1,0 +1,160 @@
+/* Sidebar state CSS for immediate application before JS loads */
+/* Base styles for sidebar in expanded state */
+.main-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 118px;
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    margin-left: 118px;
+    transition: margin-left 0.3s ease;
+}
+
+
+/* body.sidebar-collapsed .message-hub {
+    left: 60px !important;
+} */
+
+/* Toggle button styles */
+.sidebar-toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+    transition: transform 0.3s ease, top 0.3s ease;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.sidebar-toggle-btn:hover {
+    opacity: 1;
+    color: #000000;
+}
+
+.sidebar-toggle-btn.active,
+.main-sidebar.collapsed .sidebar-toggle-btn {
+    color: #000000;
+    top: 15px;
+}
+
+/* Header styling in collapsed state */
+.main-sidebar.collapsed .sidebar-header {
+    margin-top: 50px;
+}
+
+/* Fixed message hub positioning */
+.message-hub {
+    position: absolute;
+    left: 118px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    margin-left: 0 !important;
+    transition: left 0.3s ease;
+}
+
+/* ============================================================
+   Mobile Sidebar Overlay
+   ============================================================ */
+.sidebar-mobile-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.sidebar-mobile-overlay.active {
+    display: block;
+}
+
+.toggle-sidebar {
+    display: none;
+}
+
+/* ============================================================
+   Responsive Breakpoints
+   ============================================================ */
+
+/* Tablet and below — sidebar becomes an off-canvas overlay */
+@media (max-width: 992px) {
+    .main-sidebar {
+        transform: translateX(-100%);
+        width: 118px;
+        z-index: 1000;
+        box-shadow: none;
+    }
+
+    .main-sidebar.mobile-visible {
+        transform: translateX(0);
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Content fills full width */
+    .content {
+        margin-left: 0 !important;
+    }
+
+    /* Message hub also starts from left edge */
+    .message-hub {
+        left: 0 !important;
+    }
+
+    /* Show the hamburger toggle button */
+    .toggle-sidebar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 10px;
+        left: 15px;
+        width: 38px;
+        height: 38px;
+        background: #ffffff;
+        border: 1px solid #e1e4e8;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        z-index: 998;
+        cursor: pointer;
+        color: #333;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    /* Push page title right to avoid overlap with hamburger */
+    .dashboard-header {
+        padding-left: 65px !important;
+    }
+
+    .main-sidebar .sidebar-toggle-btn {
+        display: none;
+    }
+}
+
+/* Collapsed sidebar on desktop — adjust content margin */
+body.sidebar-collapsed .content {
+    margin-left: 60px;
+}
+
+body.sidebar-collapsed .message-hub {
+    left: 60px;
+}

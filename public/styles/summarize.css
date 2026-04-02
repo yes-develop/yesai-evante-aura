@@ -1,0 +1,191 @@
+.summary-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.summary-popup {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 100%);
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.summary-header h3 {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.summary-header img {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-color: #7cc7ff;
+}
+
+.close-summary {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    opacity: 0.7;
+}
+
+.summary-content {
+    padding: 24px;
+    overflow-y: auto;
+}
+
+/* Customer Information Section */
+.customer-info {
+    margin-bottom: 32px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customer-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.field-label {
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.field-icon {
+    color: #FFE600;
+}
+
+.field-input {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+
+.field-input::placeholder {
+    color: #adb5bd;
+}
+
+/* Key Customer Focus Section */
+.focus-section {
+    margin-bottom: 32px;
+    padding-top: 8px;
+}
+
+.section-header {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.focus-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Customer Needs Section */
+.needs-section {
+    margin-bottom: 32px;
+    padding-top: 8px;
+}
+
+.needs-content {
+    padding: 12px 16px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Recent Questions Section */
+.questions-section {
+    margin-bottom: 32px;
+    padding-top: 8px;
+}
+
+.questions-content {
+    padding: 12px 16px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer Disclaimer */
+.summary-disclaimer {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding: 24px;
+    line-height: 1.5;
+    border-top: 1px solid #f0f0f0;
+    margin-top: auto;
+}
+
+.summary-actions {
+    text-align: end;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+    .summary-popup {
+        width: 95%;
+        max-height: 95vh;
+    }
+}

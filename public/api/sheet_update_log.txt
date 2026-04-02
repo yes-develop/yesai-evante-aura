@@ -1,0 +1,792 @@
+2025-04-23 17:17:34 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "sheets.googleapis.com",
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:17:35 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:17:35 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:24:02 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:24:02 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:24:03 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:25:08 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "sheets.googleapis.com",
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:25:08 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:25:09 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:27:56 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:27:56 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:27:56 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:28:54 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:28:54 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:28:55 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:31:27 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:31:27 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:31:27 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "sheets.googleapis.com",
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:36:59 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:37:00 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:37:00 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:38:31 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:38:31 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:38:31 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:39:23 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:39:23 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:39:24 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:07 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:07 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:07 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:48 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:48 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:40:48 - Update cell automation!C4 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:48:03 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:48:03 - Update cell automation!C3 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------
+2025-04-23 17:49:06 - Update cell automation!C2 to '' - Response code: 401
+Response: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.apps.sheets.v4.SpreadsheetsService.UpdateValues",
+          "service": "sheets.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+Error: 
+---------------------------

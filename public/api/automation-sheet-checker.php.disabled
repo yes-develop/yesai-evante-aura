@@ -1,0 +1,233 @@
+<?php
+// ไม่ต้องโหลด autoload เพราะเราจะทำงานโดยตรงกับ API
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header('Access-Control-Allow-Headers: Content-Type');
+
+// ตั้งค่า Timezone
+date_default_timezone_set('Asia/Bangkok');
+
+// Google Sheets Configuration — read from server environment variables
+$SHEET_ID = getenv('GOOGLE_SHEETS_ID') ?: '';
+$API_KEY = getenv('GOOGLE_SHEETS_API_KEY') ?: '';
+$WEBHOOK_URL = getenv('MAKE_WEBHOOK_AUTOMATIONS_URL') ?: '';
+$sheetUrl = "https://sheets.googleapis.com/v4/spreadsheets/{$SHEET_ID}/values/automation?key={$API_KEY}";
+$updateUrl = "https://sheets.googleapis.com/v4/spreadsheets/{$SHEET_ID}/values";
+
+// ฟังก์ชันดึงข้อมูลจาก Google Sheet
+function fetchSheetData($url) {
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    $response = curl_exec($ch);
+    
+    if(curl_errno($ch)) {
+        throw new Exception(curl_error($ch));
+    }
+    
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    
+    if($httpcode != 200) {
+        throw new Exception("API returned error code: {$httpcode}");
+    }
+    
+    return json_decode($response, true);
+}
+
+// ฟังก์ชันอัปเดตค่าในเซลล์
+function updateCellValue($rowIndex, $columnLetter, $newValue) {
+    global $updateUrl, $API_KEY, $SHEET_ID;
+    
+    // สร้าง range สำหรับการอัปเดต
+    $range = "automation!{$columnLetter}{$rowIndex}";
+    
+    // สร้างข้อมูลสำหรับการอัปเดต
+    $updateData = [
+        'range' => $range,
+        'values' => [[$newValue]],
+        'majorDimension' => 'ROWS'
+    ];
+    
+    try {
+        // ทำการอัปเดตผ่าน Google Sheets API
+        // หมายเหตุ: การเขียนข้อมูลลง Google Sheet ต้องการสิทธิ์ที่มากกว่าแค่ API key
+        // แต่เนื่องจากข้อจำกัด เราจะใช้วิธีส่งข้อมูลไปยัง webhook แทนการอัปเดตโดยตรง
+        
+        $url = "{$updateUrl}/{$range}?key={$API_KEY}&valueInputOption=RAW";
+        
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($updateData));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        
+        $response = curl_exec($ch);
+        $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $error = curl_error($ch);
+        curl_close($ch);
+        
+        // บันทึกข้อมูลการอัปเดตลงในไฟล์ log (สำหรับการดีบัก)
+        file_put_contents('sheet_update_log.txt', 
+            date('Y-m-d H:i:s') . " - Update cell {$range} to '{$newValue}' - Response code: {$httpcode}" . PHP_EOL . 
+            "Response: " . $response . PHP_EOL .
+            "Error: " . $error . PHP_EOL . 
+            "---------------------------" . PHP_EOL, 
+            FILE_APPEND
+        );
+        
+        // แม้ว่าการอัปเดตอาจไม่สำเร็จโดยตรง แต่เราจะส่งข้อมูลไปยัง webhook เพื่อให้ระบบอื่นดำเนินการต่อ
+        return true;
+    } catch (Exception $e) {
+        file_put_contents('sheet_update_error.txt', 
+            date('Y-m-d H:i:s') . " - Error updating cell {$range}: " . $e->getMessage() . PHP_EOL, 
+            FILE_APPEND
+        );
+        return false;
+    }
+}
+
+// ฟังก์ชันส่งข้อมูลไปยัง webhook
+function sendToWebhook($data) {
+    global $WEBHOOK_URL, $SHEET_ID;
+    
+    $payload = [
+        'changes' => $data,
+        'timestamp' => date('c'),
+        'sheet_id' => $SHEET_ID
+    ];
+    
+    $ch = curl_init($WEBHOOK_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    
+    $response = curl_exec($ch);
+    
+    if(curl_errno($ch)) {
+        curl_close($ch);
+        return false;
+    }
+    
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    
+    return ($httpcode >= 200 && $httpcode < 300);
+}
+
+// ฟังก์ชันหลักสำหรับตรวจสอบและอัปเดตอัตโนมัติ
+function checkAutomations() {
+    global $sheetUrl;
+    
+    try {
+        // ดึงข้อมูลจาก Google Sheet
+        $data = fetchSheetData($sheetUrl);
+        
+        if(!isset($data['values']) || count($data['values']) <= 1) {
+            return ['status' => 'success', 'message' => 'No data found or only headers', 'changes' => []];
+        }
+        
+        // ข้อมูลที่มีการเปลี่ยนแปลงจะถูกส่งไปยัง webhook
+        $changedRows = [];
+        $debugInfo = [];
+        $needToSendWebhook = false;
+        
+        // เริ่มจากแถวที่ 2 (หลังจากแถวหัวข้อ)
+        for($i = 1; $i < count($data['values']); $i++) {
+            $row = $data['values'][$i];
+            
+            // ตรวจสอบว่ามีข้อมูลในคอลัมน์ E (index 4) หรือไม่
+            if(isset($row[4]) && !empty($row[4])) {
+                // ตรวจสอบว่า Status (คอลัมน์ C, index 2) เป็น "manual chat" หรือไม่
+                $status = isset($row[2]) ? trim($row[2]) : '';
+                if ($status !== 'manual chat') {
+                    continue; // ข้ามไปแถวถัดไปถ้าไม่ใช่ manual chat
+                }
+                
+                // แปลงวันที่จาก string เป็น timestamp
+                $lastModifyDateStr = $row[4];
+                
+                // แปลงวันที่รูปแบบ ISO 8601 (เช่น 2025-04-09T02:56:44.427Z)
+                if (strpos($lastModifyDateStr, 'T') !== false) {
+                    $lastModifyDate = strtotime($lastModifyDateStr);
+                } else {
+                    // ลองวิธีการแปลงแบบอื่น
+                    $lastModifyDate = strtotime($lastModifyDateStr);
+                }
+                
+                // เก็บข้อมูลดีบัก
+                $rowDebugInfo = [
+                    'row' => $i + 1,
+                    'date_string' => $lastModifyDateStr,
+                    'parsed_timestamp' => $lastModifyDate,
+                    'parsed_date' => date('Y-m-d H:i:s', $lastModifyDate),
+                    'current_time' => time(),
+                    'current_date' => date('Y-m-d H:i:s'),
+                ];
+                
+                // ตรวจสอบว่าวันที่ถูกต้องหรือไม่
+                if($lastModifyDate !== false) {
+                    // คำนวณความต่างของเวลาในหน่วยนาที
+                    $currentTime = time();
+                    $diffMinutes = floor(($currentTime - $lastModifyDate) / 60);
+                    
+                    $rowDebugInfo['diff_minutes'] = $diffMinutes;
+                    
+                    // ถ้าเวลาผ่านไปมากกว่า 5 นาที
+                    if($diffMinutes > 5) {
+                        // พยายามเปลี่ยนค่าในคอลัมน์ C (index 2) เป็น empty (option manual chat)
+                        $rowIndex = $i + 1;
+                        $updated = updateCellValue($rowIndex, 'C', '');
+                        
+                        $rowDebugInfo['update_success'] = $updated;
+                        $needToSendWebhook = true;
+                        
+                        // เพิ่มข้อมูลที่เปลี่ยนแปลงเพื่อส่งไปยัง webhook
+                        $changedRows[] = [
+                            'row' => $rowIndex,
+                            'lineUuid' => isset($row[0]) ? $row[0] : '',
+                            'original_value' => isset($row[2]) ? $row[2] : '',
+                            'new_value' => '',
+                            'last_modified' => $lastModifyDateStr,
+                            'diff_minutes' => $diffMinutes,
+                            'update_in_sheet' => $updated
+                        ];
+                    }
+                } else {
+                    $rowDebugInfo['error'] = 'Failed to parse date';
+                }
+                
+                $debugInfo[] = $rowDebugInfo;
+            }
+        }
+        
+        // ถ้ามีรายการที่ต้องอัปเดต ส่งข้อมูลไปยัง webhook แม้ว่าจะไม่สามารถอัปเดต Google Sheet ได้
+        if($needToSendWebhook) {
+            $webhookSuccess = sendToWebhook($changedRows);
+            return [
+                'status' => 'success',
+                'message' => 'Changes detected and sent to webhook',
+                'webhook_status' => $webhookSuccess ? 'sent' : 'failed',
+                'changes' => $changedRows,
+                'debug' => $debugInfo
+            ];
+        } else {
+            return [
+                'status' => 'success', 
+                'message' => 'No changes needed', 
+                'changes' => [],
+                'debug' => $debugInfo
+            ];
+        }
+    } catch(Exception $e) {
+        return ['status' => 'error', 'message' => $e->getMessage()];
+    }
+}
+
+// ดำเนินการตรวจสอบและส่งผลลัพธ์กลับไป
+$result = checkAutomations();
+echo json_encode($result); 

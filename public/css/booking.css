@@ -1,0 +1,152 @@
+#event-form-container {
+  width: 600px;
+  max-width: calc(100vw - 32px);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.event-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+#event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 0;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background-color: #f9f9f9;
+}
+
+
+.form-group textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.channel-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 36px;
+}
+
+.channel-icon-default {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  color: #666;
+}
+
+.channel-icon-default i {
+  font-size: 14px;
+}
+
+#channel-name {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+#save-event {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#save-event:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+}
+
+/* Responsive booking form */
+@media (max-width: 640px) {
+  #event-form-container {
+    top: 16px;
+    transform: translateX(-50%);
+    max-height: calc(100vh - 32px);
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
