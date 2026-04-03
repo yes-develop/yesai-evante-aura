@@ -2,23 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\EvanteApiService;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
 class ContactController extends Controller
 {
-    private $spreadsheetId;
-    private $apiKey;
-    private $range = 'Sheet1';
-
-    public function __construct()
-    {
-        $this->spreadsheetId = config('services.google_sheets.contacts_sheet_id');
-        $this->apiKey        = config('services.google_sheets.api_key');
-    }
-
-    private $requiredColumns = [
+    private array $requiredColumns = [
         'lineuuid',
         'status',
         'sequence',
@@ -31,57 +21,50 @@ class ContactController extends Controller
         'phone',
         'email',
         'note',
-        'create date'
+        'create date',
     ];
+
+    public function __construct(private readonly EvanteApiService $evanteApi)
+    {
+    }
 
     public function index()
     {
         try {
-            $response = Http::withoutVerifying()->get("https://sheets.googleapis.com/v4/spreadsheets/{$this->spreadsheetId}/values/{$this->range}", [
-                'key' => $this->apiKey
-            ]);
+            $result = $this->evanteApi->getContacts();
 
-            if (!$response->successful()) {
-                throw new \Exception('Failed to fetch data from Google Sheets');
+            if (!($result['success'] ?? false)) {
+                throw new \Exception($result['error'] ?? 'Failed to fetch contacts from Evante API');
             }
 
-            $data = $response->json();
-            $values = $data['values'] ?? [];
+            $rawContacts = $result['data'] ?? [];
 
-            if (empty($values)) {
-                $contacts = [];
-                $headers = $this->requiredColumns;
-            } else {
-                // Get headers from first row
-                $originalHeaders = array_shift($values);
-                
-                // Create a map of column indexes for required columns
-                $columnIndexes = [];
-                foreach ($this->requiredColumns as $required) {
-                    $index = array_search(strtolower($required), array_map('strtolower', $originalHeaders));
-                    if ($index !== false) {
-                        $columnIndexes[$required] = $index;
-                    }
-                }
-
-                // Filter and map the data
-                $contacts = array_map(function($row) use ($columnIndexes) {
-                    $contact = [];
-                    foreach ($columnIndexes as $header => $index) {
-                        $contact[$header] = $row[$index] ?? '';
-                    }
-                    $contact['id'] = md5($row[array_values($columnIndexes)[0]]); // Using first column as ID
-                    return $contact;
-                }, $values);
-            }
+            $contacts = array_map(function (array $item): array {
+                return [
+                    'lineuuid'       => $item['lineUuid'] ?? $item['lineuuid'] ?? '',
+                    'status'         => $item['status'] ?? '',
+                    'sequence'       => $item['chatSequence'] ?? $item['sequence'] ?? '',
+                    'profile name'   => $item['displayName'] ?? $item['profileName'] ?? $item['profile_name'] ?? '',
+                    'messagechannel' => $item['messageChannel'] ?? $item['messagechannel'] ?? '',
+                    'label'          => $item['label'] ?? '',
+                    'profile image'  => $item['profileImage'] ?? $item['profile_image'] ?? '',
+                    'unreadchat'     => $item['unreadChat'] ?? $item['unreadchat'] ?? '',
+                    'color'          => $item['color'] ?? '',
+                    'phone'          => $item['phone'] ?? '',
+                    'email'          => $item['email'] ?? '',
+                    'note'           => $item['note'] ?? '',
+                    'create date'    => $item['createdAt'] ?? $item['create_date'] ?? '',
+                    'id'             => md5($item['lineUuid'] ?? $item['lineuuid'] ?? uniqid()),
+                ];
+            }, $rawContacts);
 
             return view('message.contacts', [
                 'contacts' => $contacts,
-                'headers' => $this->requiredColumns
+                'headers'  => $this->requiredColumns,
             ]);
         } catch (\Exception $e) {
-            Log::error('Google Sheets Error: ' . $e->getMessage());
-            return back()->with('error', 'Error fetching data from Google Sheets: ' . $e->getMessage());
+            Log::error('ContactController Error: ' . $e->getMessage());
+            return back()->with('error', 'Error fetching contacts: ' . $e->getMessage());
         }
     }
-} 
+}

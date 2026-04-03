@@ -213,7 +213,7 @@ class BroadcastController extends Controller
     }
 
     /**
-     * Get all unique labels from contacts (Google Sheets) with counts.
+     * Get all unique labels from contacts with counts.
      */
     public function getLabels()
     {
@@ -241,7 +241,7 @@ class BroadcastController extends Controller
     }
 
     /**
-     * Send broadcast to in-app message tabs (Firebase).
+     * Send broadcast to in-app message tabs via Evante API.
      */
     public function sendInApp(Request $request)
     {

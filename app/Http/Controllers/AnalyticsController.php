@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
-use App\Services\GoogleSheetsService;
+use App\Services\EvanteApiService;
 
 class AnalyticsController extends Controller
 {
@@ -451,22 +451,40 @@ class AnalyticsController extends Controller
     private function getN8nWebhookData($startDate, $endDate)
     {
         try {
-            // Get data from Google Sheets Sheet2 where the actual dates are stored
-            $sheetsService = new GoogleSheetsService();
-            $conversationRows = $sheetsService->getConversationRowsNormalized('Sheet2', 5000);
+            $evanteApi = new EvanteApiService();
+            $result = $evanteApi->getAllChats();
 
-            \Log::info('Analytics debug - GoogleSheets response:', [
-                'success' => $conversationRows['success'] ?? false,
-                'data_count' => isset($conversationRows['data']) ? count($conversationRows['data']) : 0,
-                'sample_data' => array_slice($conversationRows['data'] ?? [], 0, 3)
+            \Log::info('Analytics debug - EvanteAPI response:', [
+                'success' => $result['success'] ?? false,
+                'data_count' => isset($result['data']) ? count($result['data']) : 0,
+                'sample_data' => array_slice($result['data'] ?? [], 0, 3)
             ]);
 
-            if (!$conversationRows['success']) {
-                \Log::warning('Failed to get Sheet2 data for analytics');
+            if (!($result['success'] ?? false)) {
+                \Log::warning('Failed to get chats from Evante API for analytics');
                 return [];
             }
 
-            $data = $conversationRows['data'] ?? [];
+            $chats = $result['data'] ?? [];
+
+            // Normalize to flat rows
+            $data = array_map(function (array $chat): array {
+                $timeValue = $chat['time'] ?? $chat['date'] ?? $chat['timestamp'] ?? '';
+                return [
+                    'lineUuid'       => $chat['lineUuid'] ?? '',
+                    'chatSequence'   => $chat['chatSequence'] ?? '',
+                    'message'        => $chat['userInput'] ?? $chat['message'] ?? '',
+                    'aiResponse'     => $chat['aiResponse'] ?? '',
+                    'date'           => $chat['date'] ?? $timeValue,
+                    'time'           => $timeValue,
+                    'timestamp'      => $timeValue,
+                    'chatMode'       => $chat['chatMode'] ?? '',
+                    'assignTeam'     => $chat['assignTeam'] ?? '',
+                    'messageChannel' => $chat['messageChannel'] ?? '',
+                    'linkImage'      => $chat['linkImage'] ?? '',
+                    'fileName'       => $chat['fileName'] ?? '',
+                ];
+            }, $chats);
 
             // Filter by date range using time field (which contains dates in format 2025-11-10T19:15:29.047+07:00)
             $filteredData = array_filter($data, function($item) use ($startDate, $endDate) {
@@ -513,18 +531,43 @@ class AnalyticsController extends Controller
     }
 
     /**
-     * ข้อมูลจริงสำหรับ Agent Performance จาก Sheets
+     * ข้อมูลจริงสำหรับ Agent Performance จาก Evante API
      */
     private function getAgentPerformanceData($startDate, $endDate)
     {
         try {
-            $sheetsService = new GoogleSheetsService();
-            $conversations = $sheetsService->getConversations('Sheet2', 1000);
-            
-            if (!$conversations['success']) {
+            $evanteApi = new EvanteApiService();
+            $result = $evanteApi->getAllChats();
+
+            if (!($result['success'] ?? false)) {
                 return $this->getFallbackAgentData();
             }
 
+            $chats = $result['data'] ?? [];
+
+            // Group by lineUuid, keep latest entry per conversation
+            $grouped = [];
+            foreach ($chats as $chat) {
+                $lineUuid = $chat['lineUuid'] ?? '';
+                if ($lineUuid === '') continue;
+                $timeValue = $chat['time'] ?? $chat['date'] ?? '';
+                $normalized = [
+                    'lineUuid'       => $lineUuid,
+                    'chatSequence'   => $chat['chatSequence'] ?? '',
+                    'message'        => $chat['userInput'] ?? $chat['message'] ?? '',
+                    'aiResponse'     => $chat['aiResponse'] ?? '',
+                    'time'           => $timeValue,
+                    'displayName'    => $chat['displayName'] ?? 'Unknown User',
+                    'messageChannel' => $chat['messageChannel'] ?? 'LINE',
+                    'chatMode'       => !empty($chat['aiResponse']) ? 'AI' : 'Manual',
+                    'assignTeam'     => $chat['assignTeam'] ?? '',
+                ];
+                if (!isset($grouped[$lineUuid]) || strtotime($timeValue) > strtotime($grouped[$lineUuid]['time'])) {
+                    $grouped[$lineUuid] = $normalized;
+                }
+            }
+
+            $conversations = ['success' => true, 'data' => array_values($grouped)];
             $data = $conversations['data'];
             $filteredData = $this->filterDataByDateRange($data, $startDate, $endDate);
 
