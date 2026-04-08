@@ -1055,36 +1055,7 @@ Route::post('/clear-unread', function (Request $request) {
     }
 });
 
-// Sync LINE data to Firebase
-Route::post('/line-to-firebase', function (\Illuminate\Http\Request $request) {
-    try {
-        $lineUuid = $request->input('lineUuid');
-        $message = $request->input('message', '');
-        $timestamp = $request->input('timestamp', time());
-        
-        if (!$lineUuid) {
-            return response()->json(['success' => false, 'error' => 'lineUuid is required'], 400);
-        }
-
-        // Check if FirebaseService exists
-        if (!class_exists('\App\Services\FirebaseService')) {
-            \Log::warning('FirebaseService not found, returning success');
-            return response()->json(['success' => true, 'message' => 'Firebase service not configured']);
-        }
-        
-        $firebaseService = new \App\Services\FirebaseService();
-        $result = $firebaseService->syncLineMessage($lineUuid, $message, $timestamp);
-        
-        if ($result['success']) {
-            return response()->json(['success' => true, 'message' => 'Synced to Firebase']);
-        } else {
-            return response()->json(['success' => false, 'error' => $result['error']], 500);
-        }
-    } catch (\Exception $e) {
-        \Log::error('LINE to Firebase sync failed: ' . $e->getMessage());
-        return response()->json(['success' => false, 'error' => 'Sync failed'], 500);
-    }
-});
+// Legacy /line-to-firebase endpoint removed — now using MySQL via EvanteApiService
 
 // Get LINE user profile
 Route::get('/line-profile/{userId}', function ($userId) {
@@ -1292,27 +1263,7 @@ Route::get('/line-image/{messageId}', function ($messageId) {
     }
 });
 
-// Check for message updates
-Route::get('/check-message-updates', function () {
-    try {
-        // Check if FirebaseService exists
-        if (!class_exists('\App\Services\FirebaseService')) {
-            \Log::warning('FirebaseService not found, returning empty updates');
-            return response()->json([
-                'success' => true,
-                'updates' => [],
-                'hasUpdates' => false
-            ]);
-        }
-        
-        $firebaseService = new \App\Services\FirebaseService();
-        $updates = $firebaseService->checkForUpdates();
-        return response()->json($updates);
-    } catch (\Exception $e) {
-        \Log::error('Message updates check failed: ' . $e->getMessage());
-        return response()->json(['error' => 'Failed to check updates'], 500);
-    }
-});
+// Legacy /check-message-updates endpoint removed — now using MySQL via EvanteApiService
 
 // Additional customer routes (consolidating with existing ones)
 Route::post('/customer/save', [CustomerController::class, 'saveCustomerInfo']);

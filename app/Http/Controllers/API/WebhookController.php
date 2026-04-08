@@ -94,9 +94,9 @@ class WebhookController extends Controller
             // Note: n8n workflow is triggered via the /api/n8n/unread-tracking endpoint
             // Removed direct call to avoid duplicate webhook executions
 
-            // Update conversation views in Firebase to mark as read if unreadCount is 0
+            // Mark conversation as read if unreadCount is 0
             if ($unreadCount == 0) {
-                $this->updateFirebaseConversationView($data['lineUuid']);
+                $this->markConversationViewed($data['lineUuid']);
             }
 
             return response()->json([
@@ -123,7 +123,7 @@ class WebhookController extends Controller
     /**
      * Update conversation viewed timestamp via Evante API.
      */
-    private function updateFirebaseConversationView($lineUuid)
+    private function markConversationViewed($lineUuid)
     {
         try {
             $this->evante->markConversationViewed($lineUuid);

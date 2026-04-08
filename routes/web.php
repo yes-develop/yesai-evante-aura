@@ -323,7 +323,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/broadcasts/labels', [BroadcastController::class, 'getLabels'])
         ->name('broadcasts.labels');
 
-    // Send broadcast to in-app message tabs (Firebase)
+    // Send broadcast to in-app message tabs
     Route::post('/broadcasts/send-in-app', [BroadcastController::class, 'sendInApp'])
         ->name('broadcasts.sendInApp')
         ->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class]);
@@ -535,7 +535,7 @@ Route::post('/upload-profile-image', function (Request $request) {
     return back()->with('success', 'Profile image uploaded successfully!');
 });
 
-// File upload for chat - uploads to Google Cloud Storage and records in Firebase
+// File upload for chat - uploads to Google Cloud Storage
 Route::post('/upload-file', function (Request $request) {
     try {
         $request->validate([
@@ -641,11 +641,8 @@ Route::post('/upload-file', function (Request $request) {
             'line_uuid' => $lineUuid
         ];
 
-        // Firebase database endpoint
-        $firebaseUrl = config('services.firebase.realtime_url');
         $fileId = uniqid('file_');
 
-        // Create file record for Firebase
         $fileRecord = [
             'id' => $fileId,
             'filename' => $filename,
@@ -657,93 +654,14 @@ Route::post('/upload-file', function (Request $request) {
             'gcs_path' => $storedPath,
             'url' => $fileUrl,
         ];
-        
-        // Store file info in Firebase
-        $response = \Illuminate\Support\Facades\Http::put(
-            "{$firebaseUrl}/files/{$fileId}.json",
-            $fileRecord
-        );
-        
-        if ($response->successful()) {
-            try {
-                $sheetsService = new \App\Services\GoogleSheetsService();
-                $nextChatSequence = $sheetsService->getNextChatSequence($lineUuid);
 
-                $timestampMs = (int) round(microtime(true) * 1000);
-                $recordKey = $timestampMs . '_agent';
-
-                $fileNameForDisplay = $file->getClientOriginalName();
-                $platformUserId = $request->input('platform_user_id');
-                $platformChannel = $request->input('platform_channel');
-                $isMeta = ($platformChannel === 'facebook' || $platformChannel === 'instagram');
-                $pathKey = ($isMeta && $platformUserId) ? (string)$platformUserId : (string)$lineUuid;
-                
-                // Strip existing prefixes if present (standardize on raw ID)
-                if ($isMeta && $pathKey) {
-                    $pathKey = preg_replace('/^(FB_|IG_)/', '', $pathKey);
-                }
-
-                $chatMessage = [
-                    'lineUuid'       => $pathKey,
-                    'chatSequence'   => $nextChatSequence,
-                    'userInput'      => '',
-                    'aiResponse'     => '📎 ' . $fileNameForDisplay,
-                    'linkImage'      => $fileUrl,
-                    'fileInfo'       => $fileRecord,
-                    'chatMode'       => 'Manual Chat',    // same as text BackOffice messages
-                    'aiRead'         => 'TRUE',
-                    'messageChannel' => 'BackOffice',
-                    'messageId'      => $fileId,
-                    'displayName'    => 'Admin',           // match text message field
-                    'timestamp'      => $timestampMs,
-                    'date'           => now()->toIso8601String(),
-                    'time'           => now()->toIso8601String(),
-                    'source'         => 'BACKOFFICE_FILE',
-                    'platformUserId' => $platformUserId,
-                    'platformChannel'=> $platformChannel,
-                ];
-
-                $chatResponse = \Illuminate\Support\Facades\Http::put(
-                    "{$firebaseUrl}/chats/{$pathKey}/{$recordKey}.json",
-                    $chatMessage
-                );
-
-                if (!$chatResponse->successful()) {
-                    \Illuminate\Support\Facades\Log::warning('File chat record write failed', [
-                        'lineUuid' => $lineUuid,
-                        'status' => $chatResponse->status(),
-                        'body' => $chatResponse->body(),
-                    ]);
-                }
-            } catch (\Throwable $e) {
-                \Illuminate\Support\Facades\Log::error('Unable to insert chat record for file upload', [
-                    'lineUuid' => $lineUuid,
-                    'error' => $e->getMessage(),
-                ]);
-            }
-
-            return response()->json([
-                'success' => true,
-                'file_id' => $fileId,
-                'file_url' => $fileUrl,
-                'file_info' => $fileRecord,
-                'synced_to_firebase' => true,
-                'message' => 'File uploaded successfully'
-            ]);
-        } else {
-            \Illuminate\Support\Facades\Log::warning('Firebase file write failed', [
-                'status' => $response->status(),
-                'body' => $response->body()
-            ]);
-            return response()->json([
-                'success' => true,
-                'file_id' => $fileId,
-                'file_url' => $fileUrl,
-                'file_info' => $fileRecord,
-                'synced_to_firebase' => false,
-                'message' => 'File uploaded, but metadata not stored in Firebase'
-            ]);
-        }
+        return response()->json([
+            'success' => true,
+            'file_id' => $fileId,
+            'file_url' => $fileUrl,
+            'file_info' => $fileRecord,
+            'message' => 'File uploaded successfully'
+        ]);
         
     } catch (\Illuminate\Validation\ValidationException $e) {
         return response()->json([
@@ -786,7 +704,6 @@ Route::middleware(['auth'])->group(function () {
 
 // API route moved to api.php - /api/clear-unread
 
-// API route moved to api.php - /api/line-to-firebase
 
 // API route moved to api.php - /api/line-profile/{userId}
 
@@ -815,5 +732,4 @@ Route::get('/js-config', function() {
 Route::get('/role-permissions/{role}/edit', [RolePermissionController::class, 'edit'])->name('role_permissions.edit');
 Route::post('/role-permissions/{role}/update', [RolePermissionController::class, 'update'])->name('role_permissions.update');
 
-// SSE endpoints removed - not compatible with shared hosting environments
-// Using Firebase real-time streaming instead for better reliability
+// SSE endpoints removed - using WebSocket (Reverb) instead
