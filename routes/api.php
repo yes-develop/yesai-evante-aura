@@ -16,103 +16,6 @@ use App\Http\Controllers\API\WebhookController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\AnalyticsController;
 
-if (!function_exists('yesAuraFlattenFirebaseChats')) {
-    /**
-     * Normalize Firebase chat payloads so the rest of the codebase can work with a flat list
-     * regardless of whether chats live at /chats/{id} or /chats/{lineUuid}/{recordKey}.
-     */
-    function yesAuraFlattenFirebaseChats(array $rawChats): array
-    {
-        $flattened = [];
-
-        foreach ($rawChats as $topKey => $value) {
-            if (!is_array($value)) {
-                continue;
-            }
-
-            $looksLikeChat = array_key_exists('lineUuid', $value)
-                || array_key_exists('userInput', $value)
-                || array_key_exists('aiResponse', $value)
-                || array_key_exists('messageId', $value);
-
-            // Legacy flat schema where /chats.json already contains individual messages
-            if ($looksLikeChat) {
-                $chat = $value;
-
-                if (!isset($chat['lineUuid']) && isset($chat['line_uuid'])) {
-                    $chat['lineUuid'] = $chat['line_uuid'];
-                }
-
-                if (!isset($chat['chatSequence']) && is_numeric($topKey)) {
-                    $chat['chatSequence'] = (int) $topKey;
-                }
-
-                $chat['_firebaseKey'] = (string) $topKey;
-                $chat['_conversationKey'] = (string) $topKey;
-
-                $platformMeta = yesAuraDetectPlatformMeta($chat);
-                $chat['platformChannel'] = $platformMeta['channel'];
-                $chat['platformUserId'] = (string) ($platformMeta['platform_user_id'] ?? '');
-
-                // For Meta, unify lineUuid as the prefixed platformUserId
-                if ($chat['platformChannel'] !== 'line' && $chat['platformUserId'] !== '') {
-                    $chat['lineUuid'] = $chat['platformUserId'];
-                }
-
-                if (empty($chat['messageChannel'])) {
-                    $chat['messageChannel'] = $chat['platformChannel'];
-                }
-
-                $flattened[] = $chat;
-                continue;
-            }
-
-            // Nested schema: /chats/{lineUuid}/{recordKey}
-            foreach ($value as $childKey => $childValue) {
-                if (!is_array($childValue)) {
-                    continue;
-                }
-
-                $chat = $childValue;
-                $chat['_conversationKey'] = (string) $topKey;
-
-                if (empty($chat['lineUuid'])) {
-                    $chat['lineUuid'] = $topKey;
-                }
-
-                if (!isset($chat['chatSequence'])) {
-                    if (isset($childValue['chatSequence'])) {
-                        $chat['chatSequence'] = (int) $childValue['chatSequence'];
-                    } elseif (is_numeric($childKey)) {
-                        $chat['chatSequence'] = (int) $childKey;
-                    }
-                }
-
-                if (empty($chat['_firebaseKey'])) {
-                    $chat['_firebaseKey'] = $topKey . '/' . $childKey;
-                }
-
-                $platformMeta = yesAuraDetectPlatformMeta($chat);
-                $chat['platformChannel'] = $platformMeta['channel'];
-                $chat['platformUserId'] = (string) ($platformMeta['platform_user_id'] ?? '');
-
-                // For Meta, unify lineUuid as the prefixed platformUserId
-                if ($chat['platformChannel'] !== 'line' && $chat['platformUserId'] !== '') {
-                    $chat['lineUuid'] = $chat['platformUserId'];
-                }
-
-                if (empty($chat['messageChannel'])) {
-                    $chat['messageChannel'] = $chat['platformChannel'];
-                }
-
-                $flattened[] = $chat;
-            }
-        }
-
-        return $flattened;
-    }
-}
-
 if (!function_exists('yesAuraGetChatTimeValue')) {
     function yesAuraGetChatTimeValue(array $chat): int
     {
@@ -277,7 +180,7 @@ if (!function_exists('yesAuraDetectPlatformMeta')) {
 
  
 
-// Meta (Facebook/Instagram) webhook - mimic LINE behavior: verify and store inbound messages to Firebase
+// Meta (Facebook/Instagram) webhook - mimic LINE behavior: verify and store inbound messages
 Route::match(['GET', 'POST'], '/meta/webhook', function (Request $request) {
     try {
         // Handle verification (GET)
